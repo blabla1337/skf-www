@@ -62,7 +62,7 @@ header('X-Content-Type-Options: nosniff');
 				<h3>username: admin<br />
 				password: test-skf </h3>
 				
-				<p><a class="btn" href="https://demo.securityknowledgeframework.org:5443">To demo!</a> <a class="btn" style="margin-left: 20px;" href="https://github.com/blabla1337/skf-flask/blob/master/README.md"><i class="fa fa-github" style="margin-right: 10px;"></i> Download SKF</a></p>
+				<p><a class="btn" href="https://demo.securityknowledgeframework.org">To demo!</a> <a class="btn" style="margin-left: 20px;" href="https://github.com/blabla1337/skf-flask/blob/master/README.md"><i class="fa fa-github" style="margin-right: 10px;"></i> Download SKF</a></p>
 				
 			</div>
 		</div>
