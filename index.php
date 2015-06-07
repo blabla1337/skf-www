@@ -45,7 +45,45 @@ header('X-Content-Type-Options: nosniff');
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+<script type="text/javascript">
+                        $(document).ready(function() {
+                                
+				$("body").uptimeRobot({monitorConfs: [
+                                    {
+                                     	apiKey: "m776861145-d60d8f272b3b299802ea4af8",
+                                        name: "SKF Demo",
+                                        location : "NL Schiphol Rijk"
+                                    },
+				    {
+                                     	apiKey: "m776861146-97cc8bd376321f69e6286cfc",
+                                        name: "SKF www",
+                                        location : "NL Schiphol Rijk"
+                                    }],
+                                    containerId: "monitors",
+                                    monitorTemplateId: "monitor_template"
 
+                                });
+                        });
+
+		</script>
+		<script type="text/template" id="monitor_template">
+
+			<tr>
+				<td>
+				<% if (monitor.status == 2) { %>
+					<div class="up">UP</div>
+				<% } else { %>
+					<div class="down">DOWN</div>
+				<% } %>
+				</td>
+				<td><%= monitorConf.name %></td>
+                                <td><%= monitorConf.location %></td>
+                                <td><%= monitor.alltimeuptimeratio %>%</td>
+                                <td><%= monitor.customuptimeratio.split('-')[0] %>%</td>
+                                <td><%= monitor.customuptimeratio.split('-')[1] %>%</td>
+			</tr>
+
+		</script>
 </head>
 
 <body id="page-top" class="index">
