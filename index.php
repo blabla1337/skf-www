@@ -5,6 +5,7 @@ header('X-Frame-Options: deny');
 header('X-XSS-Protection: 1; mode=block');
 header('X-Content-Type-Options: nosniff');
 
+print "<!-- ";
 #Monitor read only API key
 $api_key = "m776861145-d60d8f272b3b299802ea4af8"; 
 $server = "https://api.uptimerobot.com/getMonitors?apiKey=" . $api_key . "&format=json"; 
@@ -18,6 +19,7 @@ if(substr($server2, 0, 19) == 'jsonUptimeRobotApi(' && substr($server2, -1, 1) =
 	    echo $cc;
 	}
 }
+print " -->";
 ?>
 <!DOCTYPE html>
 <html lang="en">
