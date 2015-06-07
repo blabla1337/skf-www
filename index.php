@@ -15,8 +15,9 @@ if(substr($server2, 0, 19) == 'jsonUptimeRobotApi(' && substr($server2, -1, 1) =
 	if(!is_null($json)) {
 	    $obj = json_decode($json);
 	    var_dump($obj);
-	    $cc =  $obj->datetime;// I assume that $alert was meant to be $obj
-	    echo $cc;
+	    $nameMon =  $obj->friendlyname;// I assume that $alert was meant to be $obj
+	    echo $nameMon;
+	    print $obj->monitor[0]->friendlyname;
 	}
 }
 print " -->";
