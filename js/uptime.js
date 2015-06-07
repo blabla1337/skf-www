@@ -1,5 +1,5 @@
 (function ( $ ) {
-        var API_URL = "http://api.uptimerobot.com/";
+        var API_URL = "https://api.uptimerobot.com/";
         var defaultMonitorConf = {
                 customUptimeRatio: "1-7"
         };
