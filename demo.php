@@ -26,7 +26,7 @@ header('X-Content-Type-Options: nosniff');
     <meta name="description" content="">
     <meta name="author" content="">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <title>Security Knowledge Framework - Oops</title>
+    <title>Security Knowledge Framework - Demo</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -57,7 +57,7 @@ header('X-Content-Type-Options: nosniff');
 					<img class="fa-spin" src="https://www.securityknowledgeframework.org/img/logos/logo.svg" width="120" height="120" alt="logo" />
 				</div>
 			
-				<h1>Our demo is back online!</h1>
+				<h1>SKF demo</h1>
 
 				<h3>username: admin<br />
 				password: test-skf </h3>
