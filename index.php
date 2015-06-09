@@ -170,13 +170,13 @@ print $mon2;
 			</div>
 			<div class="item">
 				<div class="date">
-					<span class="day">21</span>
-					<span class="month">May</span>
+					<span class="day">19</span>
+					<span class="month">June</span>
 					<span class="year">2015</span>
 				</div>
 				<div class="text">
-					<h4>The SKF team is speaking at the HITB conference in Amsterdam on 26th - 29th May</h4>
-					<p><a href="http://conference.hitb.org/">Visit the website for more information</a></p>
+					<h4>New release!</h4>
+					<p>New pre-development items and code examples to fend of some new attacks!</p>
 				</div>
 			</div>
 		</div>
