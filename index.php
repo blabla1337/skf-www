@@ -157,13 +157,15 @@ print $mon2;
 		<div class="inner">
 			<div class="item">
 				<div class="date">
-					<span class="day">11</span>
-					<span class="month">May</span>
+					<span class="day">24</span>
+					<span class="month">June</span>
 					<span class="year">2015</span>
 				</div>
 				<div class="text">
-					<h4>New fresh design for better user experience and usability!</h4>
-					<p>C# .NET code examples coming soon!</p>
+					<h4>Devopsdays Amsterdam</h4>
+					<p>We will be providing an extended workshop about skf for devops!
+					a href="http://www.devopsdays.org/events/2015-amsterdam/">Visit the website for more information</a>
+					</p>
 				</div>
 			</div>
 			<div class="item">
