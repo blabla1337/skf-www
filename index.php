@@ -242,7 +242,7 @@ print $mon2;
 						</div>
 						<div class="text">
 							<h4>Glenn ten Cate</h4>
-							<p>As a coder, hacker, speaker, trainer and security researcher Glenn has over 10 years experience in the field of security. Employed as a security engineer at Schuberg Philis in the Netherlands and speaking at multiple security conferences. His goals is to create an open-source systems development life cycle with the tools and knowledge gathered over the years.</p>
+							<p>As a coder, hacker, speaker, trainer and security researcher Glenn has over 10 years experience in the field of security. Employed as a security engineer at Schuberg Philis in the Netherlands and speaking at multiple security conferences. His goals is to create an open-source software development life cycle with the tools and knowledge gathered over the years.</p>
 							<p><span class="square"><i class="fa fa-linkedin"></i></span> <a class="linkedin" href="https://www.linkedin.com/profile/view?id=140628259">Linkedin Profile</a></p>
 						</div>
 					</div>
