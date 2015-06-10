@@ -164,7 +164,7 @@ print $mon2;
 				<div class="text">
 					<h4>Devopsdays Amsterdam</h4>
 					<p>We will be providing an extended workshop about skf for devops!
-					a href="http://www.devopsdays.org/events/2015-amsterdam/">Visit the website for more information</a>
+					<a href="http://www.devopsdays.org/events/2015-amsterdam/">Visit the website for more information</a>
 					</p>
 				</div>
 			</div>
