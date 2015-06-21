@@ -57,7 +57,7 @@ header('X-Content-Type-Options: nosniff');
 					<img class="fa-spin" src="https://www.securityknowledgeframework.org/img/logos/logo.svg" width="120" height="120" alt="logo" />
 				</div>
 			
-				<h1>SKF demo(Temporarily unavailable)</h1>
+				<h1>SKF demo</h1>
 
 				<h3>username: admin<br />
 				password: test-skf </h3>
