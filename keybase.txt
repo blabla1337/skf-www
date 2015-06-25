@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/foobar
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.securityknowledgeframework.org
+  * I am foobar (https://keybase.io/foobar) on keybase.
+  * I have a public key with fingerprint 57A4 ED2C AB1E FFDE 8FD0  37C0 3BF0 D871 8EC7 98AB
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "57a4ed2cab1effde8fd037c03bf0d8718ec798ab",
+            "host": "keybase.io",
+            "key_id": "3bf0d8718ec798ab",
+            "kid": "0101c0b336dcaf2be45fc12866bbf8c1f416ed4b61742c4ae4af9d30bb7fc00eb9350a",
+            "uid": "763ac431c6c1555421106b0eca92c800",
+            "username": "foobar"
+        },
+        "service": {
+            "hostname": "www.securityknowledgeframework.org",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1435251503,
+    "expire_in": 157680000,
+    "prev": "0db7b6e994ec7f63d4c2a473339eb5ac301483948dbe50b924d7b23f9ac5b132",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.14
+Comment: https://keybase.io/crypto
+
+yMI5AnicbZJdaBVHFMc3RqXGRgM+iBTysEa0eElmdmb249aPJ6ki1KgJscbcMDM7
+e7PcuHuzd3NvYgh9UAk1CqaKQhqQaKkiaMUv1ARJi6lfyUPEb1Co38Fo9cEPNAnO
+Bn3zaZhz/ud3zvlzLhTmKwV5Y+aPbWfn9b/Mu/p3ZaNSuR2VtajMt5vVeIuaEhOP
+43pJEaQD1wvVuEoMioWtccqgcBxbmI4NkMEBYg6wTQOaghuWSZkaU+v8TFQhMYxm
+RKnry5j81Lq2jH5Fn5pIAAggBwwh3ebU0ZjAxOFQM3WdMcfk0MFQFzZmOjSwxjEV
+mDqWjQBjhsMBEMxCBFCJa5zAGTqiHCPIdQ4JIViDEOgMCE4tjZsARMKMCDy6UUi1
+4/uMBmprTJWxrMtFZEC0x+d8LpcrzQjeGLhhc8rzc/XCTgonkMmcH6RK/SApeenA
+D33u10t9XRimM/GIFzanJwCC1X5G1zLXs6W3siIrgozre2ocSiUP3agXxIhoBBKA
+YqpoSruBqHUjBTF0OTYAUR+RjQyzmcF0YVlYWunoyMZco9hACFmCEcoRgNhEFjZt
+JghgloZtg2nIsSgnDCJNjZZt8Hw1TuSYNCmRGTfp0bAxEGrrP30bJit5BcrUKZOi
+61AKphV9uZlsyTfK3jNr55dnS/zWuwMzL/bX7b8+uiO/MO/jyfTzqg2Hn/z2+t8t
+Rd/uGW+v2de9WImdb3/R9f4799zD2z3TUsM34zfuJS6kz1YUV462d6aO+Mvzh7YV
+zzqeuPVoZM6Dpk1Xnsx4W7ViIHx/RynvOFLdW5gbXTTyizPVWva4pOzy8vGu3/u/
+/0Aaloiq6ncNO+9XxdpI3+z12xKvHpzYvfCPzo2rB2oy9+feHd57YKxn8NTSXWX1
+RYcSP43fMLYufI5vT++8Vm1XFKvl804f/evPjvjTdXN+WNCw+dyqS/1tk1sSH7ZO
+GUgf7G7pTfa9mQWVmq4hb2XHyLOffx38eKw5Prws8f9mcnLNlv8+Ac39OSQ=
+=KEfc
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/foobar
+
+==================================================================
+
