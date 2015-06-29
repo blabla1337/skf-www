@@ -13,39 +13,6 @@ header('X-Content-Type-Options: nosniff');
 $api_key_demo = "m776861145-d60d8f272b3b299802ea4af8";
 $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 
-function getMonitor($api_key){
-
-  $server = "https://api.uptimerobot.com/getMonitors?apiKey=" . $api_key . "&format=json";
-  $server2 = file_get_contents($server);
-  if(substr($server2, 0, 19) == 'jsonUptimeRobotApi(' && substr($server2, -1, 1) == ')'){
-        $json = substr($server2, 19, strlen($server2) - 20);
-        if(!is_null($json)) {
-            $obj = json_decode($json);
-            $nameMon =  $obj->monitors->monitor[0]->friendlyname;
-            $uptimePerc = $obj->monitors->monitor[0]->alltimeuptimeratio;
-            $statusMon =  $obj->monitors->monitor[0]->status;
-
-            print "<!-- Disabled for now \r\n";
-            print "Monitor Name: <b>".$nameMon."</b><br>\r\n";
-            print "";
-            if($statusMon == '2'){
-                print "Monitor Status : Server is <b>up</b><br>\r\n";
-            }else{
-                print "Monitor Status: Server is <b>down</b><br>\r\n";
-            }
-            print "Server Uptime %: <b>".$uptimePerc."</b><br>\r\n";
-            print " -->";
-        }
-  }
-
-}
-
-$mon1 = getMonitor($api_key_demo);
-$mon2 = getMonitor($api_key_www);
-
-print $mon1;
-print $mon2;
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -89,6 +56,8 @@ print $mon2;
 </head>
 
 <body id="page-top" class="index">
+	
+	<div class="gradient">
 	
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -150,7 +119,7 @@ print $mon2;
 							</ul>
 						</div>
 						<div class="right">
-							<img class="fa-spin" src="img/logos/logo-seed.svg" width="250" height="250" />
+							<img src="img/logos/logo-seed2.svg" width="250" height="250" />
 						</div>
                     </div>
                 </div>
@@ -186,6 +155,8 @@ print $mon2;
 			</div>
 		</div>
 	</section>	
+	
+	</div>
 	
 	<section id="lower">
 		<div class="container">
@@ -269,19 +240,21 @@ print $mon2;
     </section>	
 	
 	<footer>
-		<div class="container">
-			<div class="col licence">
-				Security knowledge framework is licensed under the <a href="http://www.gnu.org/licenses/agpl-3.0.html">GNU 3.0 licence</a>
+		<div class="gradient">
+			<div class="container top">
+				<div class="col licence">
+					Security knowledge framework is licensed under the <a href="http://www.gnu.org/licenses/agpl-3.0.html">GNU 3.0 licence</a>
+				</div>
+				<div class="col links">
+					<ul>
+						<li><img src="img/logos/owasp-icon-white.svg" width="20" height="20" /><a href="https://www.owasp.org/index.php?title=OWASP_Security_Knowledge_Framework">OWASP Wiki for SKF</a></li>
+						<li><i class="fa fa-github"></i> <a href="https://github.com/blabla1337/skf-flask">Github SKF flask python</a></li>
+					</ul>
+				</div>
 			</div>
-			<div class="col links">
-				<ul>
-					<li><img src="img/logos/owasp-icon.svg" width="20" height="20" /><a href="https://www.owasp.org/index.php?title=OWASP_Security_Knowledge_Framework">OWASP Wiki for SKF</a></li>
-					<li><i class="fa fa-github"></i> <a href="https://github.com/blabla1337/skf-flask">Github SKF flask python</a></li>
-				</ul>
+			<div class="container footer">
+				&copy; 2015 Security Knowledge Framework
 			</div>
-		</div>
-		<div class="container footer">
-			&copy; 2015 Security Knowledge Framework
 		</div>
 	</footer>
 
