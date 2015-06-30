@@ -127,6 +127,8 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
         </div>
     </header>
 	
+	<!-- News -->
+	
 	<section id="notification">
 		<div class="inner">
 			<div class="item">
@@ -157,6 +159,76 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 	</section>	
 	
 	</div>
+
+	<!-- Details -->
+	
+	<section id="details">
+		<div class="container">
+			<div class="row two">
+			
+				<!-- Detail Processing Functions -->
+			
+				<div class="col">
+					<div class="inner">
+						<div class="image">
+							<img src="img/icons/processing-functions.svg" width="380" height="280" />
+						</div>
+						<div class="text">
+							<h3>Detect possible threats in your application</h3>
+							<p>In pre-development detect possible threats based on the processing functions on your application.</p>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Detail Checklist -->
+				
+				<div class="col">
+					<div class="inner">
+						<div class="image">
+							<img src="img/icons/checklist.svg" width="380" height="280" />
+						</div>
+						<div class="text">
+							<h3>Run OWASP ASVS Checklists</h3>
+							<p>Harden your application functions in post-development by running OWASP ASVS checklists, complete with feedback and solutions.</p>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Detail Code Examples -->
+				
+				<div class="col">
+					<div class="inner">
+						<div class="image">
+							<img src="img/icons/knowledgebase.svg" width="380" height="280" />
+						</div>
+						<div class="text">
+							<h3>Find possible theats in the SKF knowledge base</h3>
+							<p>An extensive library of common hacks and exploits, learn the hacker mindset and keep your project secure.</p>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Detail Code Examples -->
+				
+				<div class="col">
+					<div class="inner">
+						<div class="image">
+							<img src="img/icons/code-examples.svg" width="380" height="280" />
+						</div>
+						<div class="text">
+							<h3>Learn to code secure from best practice code examples</h3>
+							<p>An extensive library of code examples for a wide range of functions, beautifully commented.</p>
+						</div>
+					</div>
+				</div>
+
+
+				
+			</div>
+		</div>
+	</section>
+	
+	<!-- Info -->
 	
 	<section id="lower">
 		<div class="container">
@@ -164,7 +236,7 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 				
 				<div class="col">
 					<div class="inner">
-						<i class="fa fa-cog"></i>
+						<!--<i class="fa fa-cog"></i>-->
 						<h3>Demo</h3>
 						<p>We have set up a demo version where you can test the SKF Application. Check it out!</p>
 						<p><a href="https://www.securityknowledgeframework.org/demo.php" target="_blank">Go</a></p>
@@ -173,7 +245,7 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 
 				<div class="col">
 					<div class="inner">
-						<i class="fa fa-book"></i>
+						<!--<i class="fa fa-book"></i>-->
 						<h3>Documentation</h3>
 						<p>Getting started or need more information? Check out our documentation here.</p>
 						<p><a href="http://skf.readme.io/">Go</a></p>
@@ -182,7 +254,7 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 
 				<div class="col">				
 					<div class="inner">
-						<i class="fa fa-life-ring"></i>
+						<!--<i class="fa fa-life-ring"></i>-->
 						<h3>Support</h3>
 						<p>Request support here in case our documentation is not sufficient.</p>
 						<p><a href="http://skf.readme.io/v1.0/discuss">Go</a></p>
@@ -191,7 +263,9 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 			</div>
 		</div>
 	</section>
-
+	
+	<!-- About -->
+	
     <section class="about" id="about">
         <div class="container">
 			<div class="col left">
@@ -238,6 +312,8 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 			</div>
         </div>
     </section>	
+	
+	<!-- Footer -->
 	
 	<footer>
 		<div class="gradient">

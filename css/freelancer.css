@@ -484,7 +484,7 @@ footer .footer-below {
 
 /* Lower */
 
-#lower { float: left; width: 100%; background: #fff; }
+#lower { float: left; width: 100%; background: #fbfbfb; }
 #lower .three .col { float: left; width: 33.33%; text-align: center; color: #7c81b5; }
 #lower .three .col i { font-size: 50px; color: #515594; }
 #lower .three .col .inner{ float: left; width: 95%; margin: 0 2.5%; }
@@ -505,7 +505,7 @@ footer .footer-below {
 
 /* About */
 
-#about { border-top: 2px solid #e8e8e8; float: left; width: 100%; }
+#about { float: left; width: 100%; }
 #about  .col { float: left; width: 50%; }
 #about  .col .inner { float: left; width: 90%; }
 #about  .col.left .inner { margin-right: 5%; }
@@ -552,6 +552,13 @@ footer .footer { float: left; width: 100%; color: #fff; padding: 30px 0; text-al
 #notification a { color: #fff; text-decoration: underline; }
 #notification a:hover { text-decoration: none; }
 
+/* Details */
+
+#details { float: left; width: 100%; padding: 30px 0; }
+#details .image { float: left; width: 30%; margin-top: 15px; }
+#details img { display: block; width: 100%; height: auto; }
+#details .text { float: left; width: 60%; margin-left: 5%; }
+#details .col { float: left; width: 50%; padding: 15px 0; }
 
 /* Error */
 
