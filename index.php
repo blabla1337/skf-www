@@ -202,7 +202,7 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 							<img src="img/icons/knowledgebase.svg" width="380" height="280" />
 						</div>
 						<div class="text">
-							<h3>Find possible theats in the SKF knowledge base</h3>
+							<h3>Learn about threats and mitigation in the SKF knowledge base</h3>
 							<p>An extensive library of common hacks and exploits, learn the hacker mindset and keep your project secure.</p>
 						</div>
 					</div>
