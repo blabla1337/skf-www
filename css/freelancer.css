@@ -190,6 +190,7 @@ header .container .row { margin-top: 60px; }
 .navbar-nav > li > a { padding: 10px 15px; }
 .navbar .navbar-nav {
     letter-spacing: 1px;
+	margin-top: 10px;
 }
 
 .navbar .navbar-nav li a:focus {
