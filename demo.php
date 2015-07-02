@@ -75,10 +75,10 @@ header('X-Content-Type-Options: nosniff');
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a onclick="/index.php">Home</a>
+                        <a onclick="https://www.securityknowledgeframework.org/index.php">Home</a>
                     </li>
                     <li class="active">
-                        <a onclick="/demo.php">Demo</a>
+                        <a onclick="https://www.securityknowledgeframework.org/demo.php">Demo</a>
                     </li>
                     <li>
                         <a onclick="http://skf.readme.io">Documentation</a>

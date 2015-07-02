@@ -85,10 +85,10 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active">
-                        <a onclick="/index.php">Home</a>
+                        <a onclick="https://www.securityknowledgeframework.org/index.php">Home</a>
                     </li>
                     <li>
-                        <a onclick="/demo.php">Demo</a>
+                        <a onclick="https://www.securityknowledgeframework.org/demo.php">Demo</a>
                     </li>
                     <li>
                         <a onclick="http://skf.readme.io">Documentation</a>
