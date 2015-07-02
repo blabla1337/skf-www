@@ -46,6 +46,7 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Ruda' rel='stylesheet' type='text/css'>
 	
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	
@@ -83,17 +84,17 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 			
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden top">
-                        <a href="#page-top"></a>
+                    <li class="active">
+                        <a onclick="/index.php">Home</a>
                     </li>
-                    <li class="page-scroll lower">
-                        <a onclick="$.scrollTo( '#lower', 1000, {offset: {top: -80} });">Get started</a>
+                    <li>
+                        <a onclick="/demo.php">Demo</a>
                     </li>
-                    <li class="page-scroll about">
-                        <a onclick="$.scrollTo( '#about', 1000, {offset: {top: -80} });">About</a>
+                    <li>
+                        <a onclick="http://skf.readme.io">Documentation</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="https://github.com/blabla1337/skf-flask">Open-Source</a>
+                    <li>
+                        <a href="https://github.com/blabla1337/skf-flask">Download</a>
                     </li>
                 </ul>
             </div>

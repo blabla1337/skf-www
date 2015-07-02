@@ -37,6 +37,7 @@ header('X-Content-Type-Options: nosniff');
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Ruda' rel='stylesheet' type='text/css'>
 	
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	
@@ -47,29 +48,112 @@ header('X-Content-Type-Options: nosniff');
 
 </head>
 
-<body id="page-top" class="fail">
-	
-	<div id="errorContainer">
-		<div class="inner">
-			<div class="wrapper">
-			
-				<div class="logo">
-					<img class="fa-spin" src="https://www.securityknowledgeframework.org/img/logos/logo.svg" width="120" height="120" alt="logo" />
-				</div>
-			
-				<h1>SKF demo</h1>
+<body id="page-top" class="gradient demo">
 
-				<h3>username: admin<br />
-				password: test-skf </h3>
-				
-				<p><a class="btn" href="https://demo.securityknowledgeframework.org">To demo!</a> <a class="btn" style="margin-left: 20px;" href="https://github.com/blabla1337/skf-flask/blob/master/README.md"><i class="fa fa-github" style="margin-right: 10px;"></i> Download SKF</a></p><br/>
-				<p style="font-size:12px;"><b>Note:</b> When people are attacking the website, it shuts itself down for about, 2min<br/>
-				giving you a 500 error message. Also we do a pull from github every hour so your session could
-				be invalidated.  
-				</p>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+		
+            <!-- Brand and toggle get grouped for better mobile display -->
+			
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Start guide</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                </button> 
+                <a class="navbar-brand" href="#page-top">
+					<img src="img/logos/logo.svg" width="35" height="35" />
+					<span class="desktop">Security Knowledge Framework</span>
+					<span class="mobile">SKF</span>
+				</a>
+            </div>
+
+            <!-- Navigation -->
+			
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a onclick="/index.php">Home</a>
+                    </li>
+                    <li class="active">
+                        <a onclick="/demo.php">Demo</a>
+                    </li>
+                    <li>
+                        <a onclick="http://skf.readme.io">Documentation</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/blabla1337/skf-flask">Download</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	
+	<!-- News -->
+	
+	<section id="headline">
+		<div class="container">
+			<h1>Demo</h1>
+		</div>	
+	</section>	
+
+	<!-- Details -->
+	
+	<section id="demo">
+		<div class="container">
+			<div class="leftCol">
+				<p>The demo shows a complete version of the Security Knowledge Framework.</p>
+				<p><b>Please note:</b> When the website is under attack it shuts itself down for about, 2min giving you a 500 error message. Also we do a pull from github every hour, if you are visiting the demo this point your session could
+				be invalidated. Just login again with the provided username and password.  </p>
+				<p>If you have any questions, awesome ideas or general comments please use the <a href="http://skf.readme.io/">support</a> interface and get in touch!</p>
+			</div>
+			<div class="rightCol">
+				<div class="wrap login">
+					<h3>Login</h3>
+					<ul>
+						<li><strong>Username:</strong> admin</li>
+						<li><strong>Password:</strong> test-skf</li>
+					</ul>
+					<a class="solid" href="https://demo.securityknowledgeframework.org">View the demo!</a>
+				</div>
 			</div>
 		</div>
-	</div>
+	</section>
+		
+	<!-- Footer -->
+	
+	<footer>
+		<div class="container top">
+			<div class="col licence">
+				Security knowledge framework is licensed under the <a href="http://www.gnu.org/licenses/agpl-3.0.html">GNU 3.0 licence</a>
+			</div>
+			<div class="col links">
+				<ul>
+					<li><img src="img/logos/owasp-icon-white.svg" width="20" height="20" /><a href="https://www.owasp.org/index.php?title=OWASP_Security_Knowledge_Framework">OWASP Wiki for SKF</a></li>
+					<li><i class="fa fa-github"></i> <a href="https://github.com/blabla1337/skf-flask">Github SKF flask python</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="container footer">
+			&copy; 2015 Security Knowledge Framework
+		</div>
+	</footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/freelancer.js"></script>
 	
 </body>
 <!--<img src="img/scrum.png" style="visibility:hidden;" width="1px;"/>-->
