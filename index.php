@@ -46,7 +46,7 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-	<link href='http://fonts.googleapis.com/css?family=Ruda' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Ruda' rel='stylesheet' type='text/css'>
 	
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	
