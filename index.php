@@ -94,7 +94,7 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
                         <a href="http://skf.readme.io">Documentation</a>
                     </li>
                     <li>
-                        <a href="https://github.com/blabla1337/skf-flask">Download</a>
+                        <a href="http://skf.readme.io/v1.0/docs/installation">Download</a>
                     </li>
                 </ul>
             </div>
