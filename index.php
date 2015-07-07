@@ -134,26 +134,25 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 		<div class="inner">
 			<div class="item">
 				<div class="date">
-					<span class="day">24</span>
-					<span class="month">June</span>
+					<span class="day">4</span>
+					<span class="month">August</span>
 					<span class="year">2015</span>
 				</div>
 				<div class="text">
-					<h4>Devopsdays Amsterdam</h4>
-					<p>We will be providing an extended workshop about skf for devops!
-					<a href="http://www.devopsdays.org/events/2015-amsterdam/">Visit the website for more information</a>
+					<h4>Xebia</h4>
+					We will be providing a talk @ xebia about security knowledge framework
 					</p>
 				</div>
 			</div>
 			<div class="item">
 				<div class="date">
-					<span class="day">19</span>
-					<span class="month">June</span>
+					<span class="day">*</span>
+					<span class="month">sept/okt</span>
 					<span class="year">2015</span>
 				</div>
 				<div class="text">
 					<h4>New release!</h4>
-					<p>New pre-development items and code examples to fend of some new attacks!</p>
+					<p>Allong with the new planned ASVS release, s.k.f will also do a new release containing the latest developments!</p>
 				</div>
 			</div>
 		</div>
