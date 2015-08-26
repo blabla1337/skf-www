@@ -105,7 +105,6 @@ header('X-Content-Type-Options: nosniff');
 		<div class="container">
 			<div class="leftCol">
 				<p>The demo shows a complete version of the Security Knowledge Framework.</p>
-				<p><b>Demo is not working we are busy with maintenance.</b></p>
 				<p><b>Please note:</b> When the website is under attack it shuts itself down for about, 2min giving you a 500 error message. Also we do a pull from github every hour, if you are visiting the demo this point your session could
 				be invalidated. Just login again with the provided username and password.  </p>
 				<p>If you have any questions, awesome ideas or general comments please use the <a href="http://skf.readme.io/">support</a> interface and get in touch!</p>
