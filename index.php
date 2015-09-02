@@ -134,14 +134,14 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 		<div class="inner">
 			<div class="item">
 				<div class="date">
-					<span class="day">4</span>
-					<span class="month">August</span>
+					<span class="day">6/8</span>
+					<span class="month">Sept</span>
 					<span class="year">2015</span>
 				</div>
 				<div class="text">
-					<h4>Xebia</h4>
-					We will be providing a talk @ xebia about security knowledge framework
-					</p>
+					<h4>Source in Dublin</h4>
+					
+					<p>We will be providing a security training @ source in dublin about skf!</p>
 				</div>
 			</div>
 			<div class="item">
@@ -152,7 +152,7 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 				</div>
 				<div class="text">
 					<h4>New release!</h4>
-					<p>Allong with the new planned ASVS release, s.k.f will also do a new release containing the latest developments!</p>
+					<p>New knowledgebase items, code examples & usermanagement added!</p>
 				</div>
 			</div>
 		</div>
