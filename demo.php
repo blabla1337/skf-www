@@ -94,7 +94,7 @@ header('X-Content-Type-Options: nosniff');
 	
 	<section id="headline">
 		<div class="container">
-			<h1>Demo (temporary ofline due to new version testing)</h1>
+		<!--	<h1>Demo (temporary ofline due to new version testing)</h1> -->
 		</div>	
 	</section>	
 
