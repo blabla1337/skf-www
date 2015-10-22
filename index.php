@@ -304,7 +304,7 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 						</div>
 						<div class="text">
 							<h4>Riccardo ten Cate</h4>
-							<p>As a freelance penetration tester from the Netherlands Riccardo specialises in web-application security and has extensive knowledge in securing web applications in multiple coding languages.</p>
+							<p>As a penetration tester from the Netherlands employed at The S-unit Riccardo specialises in web-application security and has extensive knowledge in securing web applications in multiple coding languages.</p>
 							<p><span class="square"><i class="fa fa-linkedin"></i></span> <a class="linkedin" href="https://www.linkedin.com/profile/view?id=288596459">Linkedin Profile</a></p>
 						</div>
 					</div>
