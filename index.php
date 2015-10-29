@@ -134,25 +134,25 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 		<div class="inner">
 			<div class="item">
 				<div class="date">
-					<span class="day">6/8</span>
-					<span class="month">Sept</span>
+					<span class="day">12</span>
+					<span class="month">November</span>
 					<span class="year">2015</span>
 				</div>
 				<div class="text">
-					<h4>Source in Dublin</h4>
+					<h4>BlackhatEU</h4>
 					
-					<p>We will be providing a security training @ source in dublin about skf!</p>
+					<p>We will be providing a talk about skf on blackhat arsenal!</p>
 				</div>
 			</div>
 			<div class="item">
 				<div class="date">
-					<span class="day">*</span>
-					<span class="month">sept/okt</span>
+					<span class="day">12</span>
+					<span class="month">nov</span>
 					<span class="year">2015</span>
 				</div>
 				<div class="text">
 					<h4>New release!</h4>
-					<p>New knowledgebase items, code examples & usermanagement added!</p>
+					<p>New release with added functions + ASVS 3.0 specially for blackhat!</p>
 				</div>
 			</div>
 		</div>
