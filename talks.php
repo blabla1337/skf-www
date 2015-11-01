@@ -76,10 +76,10 @@ header('X-Content-Type-Options: nosniff');
                     <li>
                         <a href="index.php">Home</a>
                     </li>
-                    <li class="active">
+                    <li>
                         <a href="demo.php">Demo</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="talks.php">Talks</a>
                     </li>
                     <li>
@@ -97,7 +97,7 @@ header('X-Content-Type-Options: nosniff');
 	
 	<section id="headline">
 		<div class="container">
-			<h1>Try before you .. </h1>
+				<h1>Our talks</h1>
 		</div>	
 	</section>	
 
@@ -106,20 +106,62 @@ header('X-Content-Type-Options: nosniff');
 	<section id="demo">
 		<div class="container">
 			<div class="leftCol">
-				<h2>Just kidding, it's free</h2>
-				<p>The demo shows a complete version of the Security Knowledge Framework.</p>
-				<p><b>Please note:</b> When the website is under attack it shuts itself down for about, 2min giving you a 500 error message. Also we do a pull from github every hour, if you are visiting the demo this point your session could
-				be invalidated. Just login again with the provided username and password.  </p>
-				<p>If you have any questions, awesome ideas or general comments please use the <a href="http://skf.readme.io/">support</a> interface and get in touch!</p>
+				<h2>Past, present and future</h2>
+				<p>We active members of the OWASP community in the Netherlands and we are giving presentations about security and the Security Knowledge Framework around the world, are you with a company or an organisation and you have an event where we would be a great fit? Feel free to get in touch!</p>
+				<p><a href="https://www.linkedin.com/profile/view?id=140628259" target="_blank">Glenn ten Cate</a> & <a href="https://www.linkedin.com/profile/view?id=288596459" target="_blank">Riccardo ten Cate</a></p>
+				<h3>You may know us from ...</h3>
+				<p>Since the first release of the framework early 2015 we have given talks at the following companies and events, we've been given amazing feedback motivating us to keep improving and finetuning SKF. We love engaging with the community and spreading the sense of making the web secure, by design.</p>
+				
+				<!-- Start Events -->
+				
+				<div id="pastEvents">
+					<ul>
+						<li>
+							<span class="name">BlackhatEU, Arsenal</span>
+							<span class="location">Amsterdam, NL</span>
+							<span class="date">
+								<span class="day">12</span>
+								<span class="month">10</span>
+								<span class="year">2015</span>
+							</span>
+						</li>
+					</ul>
+				</div>
+				
+				<!-- End Events -->
+				
 			</div>
 			<div class="rightCol">
 				<div class="wrap login">
-					<h3>Login</h3>
-					<ul>
-						<li><strong>Username:</strong> admin</li>
-						<li><strong>Password:</strong> test-skf</li>
-					</ul>
-					<a class="btn solid" href="https://demo.securityknowledgeframework.org">View the demo!</a>
+					<h3>Next up:</h3>
+					
+					<!-- Start Upcoming Event -->
+					
+					<div id="calendar">
+						<div class="event">
+							<div class="name">BlackhatEU, Arsenal</div>
+							<div class="row top">
+								<div class="left">When:</div>
+								<div class="right">
+									<span class="day">12</span>
+									<span class="month">November</span>
+									<span class="year">2015</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="left">Where:</div>
+								<div class="right">
+									<div class="location">Amsterdam, the Netherlands</div>
+								</div>
+							</div>
+							<div class="row web">
+								<a class="btn solid" href="https://www.blackhat.com/eu-15/arsenal.html">more information</a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- End Upcoming Event -->
+					
 				</div>
 			</div>
 		</div>
