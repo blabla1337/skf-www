@@ -197,6 +197,15 @@ header('X-Content-Type-Options: nosniff');
 								<span class="year">2015</span>
 							</span>
 						</li>
+						<li>
+							<span class="name">Confidence</span>
+							<span class="location">Poland</span>
+							<span class="date">
+								<span class="day">25</span>
+								<span class="month">05</span>
+								<span class="year">2015</span>
+							</span>
+						</li>
 					</ul>
 				</div> 
 				
