@@ -199,7 +199,7 @@ header('X-Content-Type-Options: nosniff');
 						</li>
 						<li>
 							<span class="name">Confidence</span>
-							<span class="location">Poland</span>
+							<span class="location">Krakow, PL</span>
 							<span class="date">
 								<span class="day">25</span>
 								<span class="month">05</span>
