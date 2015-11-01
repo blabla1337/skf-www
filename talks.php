@@ -125,8 +125,80 @@ header('X-Content-Type-Options: nosniff');
 								<span class="year">2015</span>
 							</span>
 						</li>
+						<li>
+							<span class="name">DevSecCon</span>
+							<span class="location">London, UK</span>
+							<span class="date">
+								<span class="day">22</span>
+								<span class="month">09</span>
+								<span class="year">2015</span>
+							</span>
+						</li>
+						<li>
+							<span class="name">OWASP Summit Appsec</span>
+							<span class="location">San Francisco, USA</span>
+							<span class="date">
+								<span class="day">21</span>
+								<span class="month">09</span>
+								<span class="year">2015</span>
+							</span>
+						</li>
+						<li>
+							<span class="name">Holland Web Week</span>
+							<span class="location">Groningen, NL</span>
+							<span class="date">
+								<span class="day">16</span>
+								<span class="month">09</span>
+								<span class="year">2015</span>
+							</span>
+						</li>
+						<li>
+							<span class="name">Hactivity</span>
+							<span class="location">Budapest, HU</span>
+							<span class="date">
+								<span class="day">9</span>
+								<span class="month">09</span>
+								<span class="year">2015</span>
+							</span>
+						</li>
+						<li>
+							<span class="name">HITB / Haxpo</span>
+							<span class="location">Amsterdam, NL</span>
+							<span class="date">
+								<span class="day">26</span>
+								<span class="month">08</span>
+								<span class="year">2015</span>
+							</span>
+						</li>
+						<li>
+							<span class="name">Besides</span>
+							<span class="location">Manchester, UK</span>
+							<span class="date">
+								<span class="day">25</span>
+								<span class="month">08</span>
+								<span class="year">2015</span>
+							</span>
+						</li>
+						<li>
+							<span class="name">Devops</span>
+							<span class="location">Amsterdam, NL</span>
+							<span class="date">
+								<span class="day">24</span>
+								<span class="month">06</span>
+								<span class="year">2015</span>
+							</span>
+						</li>
+						<li>
+							<span class="name">Source Conference</span>
+							<span class="location">Dublin, IR</span>
+							<span class="date">
+								<span class="day">7</span>
+								<span class="month">06</span>
+								<span class="year">2015</span>
+							</span>
+						</li>
 					</ul>
-				</div>
+				</div> 
 				
 				<!-- End Events -->
 				
