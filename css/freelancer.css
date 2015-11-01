@@ -702,6 +702,14 @@ body.fail .btn:hover { background: #7c81b5; }
 	#about .user .text { margin: 0; width: 100%; }
 	#about .user .photo { width: 100%; }
 	footer .licence { width: 90%; padding: 0 5%; font-size: 1.2em; box-sizing: unset; }
+	
+	#demo .leftCol { width: 100%; }
+	#demo .rightCol { width: 100%; }
+	
+	#pastEvents .name { width: 100%; }
+	#pastEvents .location { width: 50%; font-size: 0.9em; }
+	#pastEvents .date { width: 50%; font-size: 0.9em; text-align: right; }
+	
 }
 @media(min-width: 401px) and (max-width: 499px) {
 	
@@ -769,6 +777,14 @@ body.fail .btn:hover { background: #7c81b5; }
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#515594', endColorstr='#e56769',GradientType=1 ); 	
 	
 	}
+	
+	#demo .leftCol { width: 100%; }
+	#demo .rightCol { width: 100%; }
+	
+	#pastEvents .name { width: 100%; }
+	#pastEvents .location { width: 50%; font-size: 0.9em; }
+	#pastEvents .date { width: 50%; font-size: 0.9em; text-align: right; }
+	
 }
 @media(min-width: 500px) and (max-width: 768px) {
 
@@ -809,6 +825,13 @@ body.fail .btn:hover { background: #7c81b5; }
 	.navbar-default .navbar-nav > li > a,
 	.navbar-default .navbar-nav > .active > a { color: #515594; }
 	#details h3 { font-size: 1.3em; }
+	
+	#pastEvents .name { width: 100%; }
+	#pastEvents .location { width: 50%; font-size: 0.9em; }
+	#pastEvents .date { width: 50%; font-size: 0.9em; text-align: right; }
+
+	#calendar .event	.left { width: 100%; margin: 0; font-size: 0.9em; color: #9e9e9e; }
+	#calendar .event	.right { width: 100%; }
 	
 }
 
