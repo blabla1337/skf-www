@@ -58,9 +58,12 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 
 <body id="page-top" class="index">
 	
+	
+	
 	<div class="gradient">
 	
     <nav class="navbar navbar-default navbar-fixed-top">
+	
         <div class="container">
 		
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -138,12 +141,12 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 			<div class="item">
 				<div class="date">
 					<span class="day">12</span>
-					<span class="month">November</span>
+					<span class="month">nov</span>
 					<span class="year">2015</span>
 				</div>
 				<div class="text">
 					<h4>BlackhatEU</h4>
-					<p>We will be providing a talk about skf on blackhat arsenal!</p>
+					<p>We will be giving a talk about SKF at Blackhat Arsenal in Amsterdam! See you there.</p>
 				</div>
 			</div>
 			<div class="item">
@@ -154,11 +157,13 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 				</div>
 				<div class="text">
 					<h4>New release!</h4>
-					<p>New release with added functions + ASVS 3.0 specially for blackhat!</p>
+					<p>New release with added functions + ASVS 3.0 specially for Blackhat!</p>
 				</div>
 			</div>
 		</div>
 	</section>	
+	
+	<div class="message">SKF proven useful? You can donate to the project on our <a href="https://www.owasp.org/index.php/OWASP_Security_Knowledge_Framework" target="_blank">OWASP Wiki page</a>.</div>
 	
 	</div>
 
@@ -287,10 +292,8 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 				<div class="inner">
 					<h3>Authors</h3>
 					<div class="user">
-						<div class="photo">
-							<img width="16" height="16" src="img/logos/logo.svg">
-							<i class="fa fa-user-secret"></i>
-							<span class="glow"></span>
+						<div class="avatar">
+							<img src="img/team/glenn-ten-cate.jpg" width="300" height="300" alt="Glenn ten Cate" />
 						</div>
 						<div class="text">
 							<h4>Glenn ten Cate</h4>
@@ -299,14 +302,12 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 						</div>
 					</div>
 					<div class="user">
-						<div class="photo">
-							<img width="16" height="16" src="img/logos/logo.svg">
-							<i class="fa fa-user-secret"></i>
-							<span class="glow"></span>
+						<div class="avatar">
+							<img src="img/team/riccardo-ten-cate.jpg" width="300" height="300" alt="Riccardo ten Cate" />
 						</div>
 						<div class="text">
 							<h4>Riccardo ten Cate</h4>
-							<p>As a penetration tester from the Netherlands employed at The S-unit Riccardo specialises in web-application security and has extensive knowledge in securing web applications in multiple coding languages.</p>
+							<p>As a penetration tester from the Netherlands employed at The S-Unit Riccardo specialises in web-application security and has extensive knowledge in securing web applications in multiple coding languages.</p>
 							<p><span class="square"><i class="fa fa-linkedin"></i></span> <a class="linkedin" href="https://www.linkedin.com/profile/view?id=288596459">Linkedin Profile</a></p>
 						</div>
 					</div>

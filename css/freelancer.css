@@ -150,7 +150,7 @@ header .container .row { margin-top: 60px; }
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 60px 0;
 		position: relative;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
@@ -197,7 +197,7 @@ header .container .row { margin-top: 60px; }
     outline: 0;
 }
 
-.navbar-default { background: none; }
+.navbar-default { background: none; float: left; width: 100%; }
 .navbar-default,
 .navbar-inverse {
     border: 0;
@@ -238,6 +238,8 @@ section h2 {
 #pastEvents .date .day:after { content: "-" }
 #pastEvents .date .month:after { content: "-" }
 
+.message { float: left; width: 100%; background: #515594; color: #fff; padding: 10px 0; text-align: center; transition: all 0.2s ease-in-out 0s; font-family: "Ruda",sans-serif; }
+.message a { color: #d3d6ff; }
 
 section.success {
     color: #fff;
@@ -539,9 +541,11 @@ footer .footer-below {
 #about  .col.right .inner { margin-left: 5%; }
 
 #about .user { float: left; width: 100%; margin: 10px 0; }
+#about .user .avatar,
 #about .user .photo { width: 80px; height: 80px; background: #e8e8e8; float: left; -webkit-border-radius: 80px; n-moz-border-radius: 80px; border-radius: 80px; overflow: hidden; position: relative; }
 #about .user .photo i { font-size: 90px; margin-left: 5px; color: #515594; max-width: 15%; z-index: 1; position: relative; }
 #about .user .photo img { position: absolute; right: 13px; top: 48px; width: 10px; z-index: 2; }
+#about .user .avatar img { display: block; width: 100%; height: auto; }
 #about .user .photo .glow { position: absolute; right: 25px; top: 15px;width: 30px; height: 30px; z-index: 0; background: transparent; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
 #about .user:hover .glow { background: #FFFFCC; }
 #about .user .text { float: left; margin-left: 5%; width: 75%; }
