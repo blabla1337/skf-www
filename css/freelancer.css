@@ -710,6 +710,10 @@ body.fail .btn:hover { background: #7c81b5; }
 	#pastEvents .location { width: 50%; font-size: 0.9em; }
 	#pastEvents .date { width: 50%; font-size: 0.9em; text-align: right; }
 	
+	#notification .item { width: 100%; text-align: left; padding: 10px 0; }
+	#notification .item:first-child { border-bottom: 1px dotted #fff; }
+	header .left ul { font-size: 0.9em; }
+	
 }
 @media(min-width: 401px) and (max-width: 499px) {
 	
