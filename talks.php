@@ -156,7 +156,7 @@ header('X-Content-Type-Options: nosniff');
 							<span class="name">Hactivity</span>
 							<span class="location">Budapest, HU</span>
 							<span class="date">
-								<span class="day">9</span>
+								<span class="day">09</span>
 								<span class="month">09</span>
 								<span class="year">2015</span>
 							</span>
@@ -192,7 +192,7 @@ header('X-Content-Type-Options: nosniff');
 							<span class="name">Source Conference</span>
 							<span class="location">Dublin, IR</span>
 							<span class="date">
-								<span class="day">7</span>
+								<span class="day">07</span>
 								<span class="month">06</span>
 								<span class="year">2015</span>
 							</span>
