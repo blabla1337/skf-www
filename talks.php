@@ -107,7 +107,7 @@ header('X-Content-Type-Options: nosniff');
 		<div class="container">
 			<div class="leftCol">
 				<h2>Past, present and future</h2>
-				<p>We active members of the OWASP community in the Netherlands and we are giving presentations about security and the Security Knowledge Framework around the world, are you with a company or an organisation and you have an event where we would be a great fit? Feel free to get in touch!</p>
+				<p>We are active members of the OWASP community in the Netherlands and we are giving presentations about security and the Security Knowledge Framework around the world, are you with a company or an organisation and you have an event where we would be a great fit? Feel free to get in touch!</p>
 				<p><a href="https://www.linkedin.com/profile/view?id=140628259" target="_blank">Glenn ten Cate</a> & <a href="https://www.linkedin.com/profile/view?id=288596459" target="_blank">Riccardo ten Cate</a></p>
 				<h3>You may know us from ...</h3>
 				<p>Since the first release of the framework early 2015 we have given talks at the following companies and events, we've been given amazing feedback motivating us to keep improving and finetuning SKF. We love engaging with the community and spreading the sense of making the web secure, by design.</p>
@@ -242,6 +242,22 @@ header('X-Content-Type-Options: nosniff');
 					</div>
 					
 					<!-- End Upcoming Event -->
+					
+					<div id="shamelessPlug">
+						<h3>In-House Workshops</h3>
+						<div class="inner">
+							<p>We also provide in-house workshops to get the most out of SKF in your teams development workflow.</p>
+							<p>If your dev team is interested in learning how to detect and eliminate the many weak spots out of your projects, feel free to get in touch!</p>
+						</div>
+						<div class="contact">
+							<div class="avatar">
+								<img src="img/team/glenn-ten-cate.jpg" width="300" height="300" alt="Glenn ten Cate" />
+							</div>
+							<div class="info">
+								<p><span class="square"><i class="fa fa-linkedin"></i></span> <a href="https://www.linkedin.com/profile/view?id=140628259" class="linkedin">Glenn ten Cate</a></p>
+							</div>
+						</div>
+					</div>
 					
 				</div>
 			</div>
