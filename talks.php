@@ -250,11 +250,21 @@ header('X-Content-Type-Options: nosniff');
 							<p>If your dev team is interested in learning how to detect and eliminate the many weak spots out of your projects, feel free to get in touch!</p>
 						</div>
 						<div class="contact">
-							<div class="avatar">
-								<img src="img/team/glenn-ten-cate.jpg" width="300" height="300" alt="Glenn ten Cate" />
+							<div class="member">
+								<div class="avatar">
+									<img src="img/team/glenn-ten-cate.jpg" width="300" height="300" alt="Glenn ten Cate" />
+								</div>
+								<div class="info">
+									<p><span class="square"><i class="fa fa-linkedin"></i></span> <a href="https://www.linkedin.com/profile/view?id=140628259" class="linkedin" target="_blank">Glenn ten Cate</a></p>
+								</div>
 							</div>
-							<div class="info">
-								<p><span class="square"><i class="fa fa-linkedin"></i></span> <a href="https://www.linkedin.com/profile/view?id=140628259" class="linkedin">Glenn ten Cate</a></p>
+							<div class="member">
+								<div class="avatar">
+									<img src="img/team/riccardo-ten-cate.jpg" width="300" height="300" alt="Riccardo ten Cate" />
+								</div>
+								<div class="info">
+									<p><span class="square"><i class="fa fa-linkedin"></i></span> <a href="https://www.linkedin.com/profile/view?id=288596459" class="linkedin" target="_blank">Riccardo ten Cate</a></p>
+								</div>
 							</div>
 						</div>
 					</div>

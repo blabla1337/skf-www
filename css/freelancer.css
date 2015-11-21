@@ -634,6 +634,8 @@ body.fail .btn:hover { background: #7c81b5; }
 #shamelessPlug { float: left; width: 100%;  }
 #shamelessPlug .inner { background: #ececec; box-sizing: border-box; padding: 15px;  }
 #shamelessPlug .contact { background: #f5f5f5; box-sizing: border-box; padding: 15px; overflow: auto; }
+#shamelessPlug .contact .member { float: left; width: 100%; }
+#shamelessPlug .contact .member:last-child { margin-top: 10px; }
 #shamelessPlug .avatar { float: left; width: 60px; height: 60px; border-radius: 60px; overflow: hidden; }
 #shamelessPlug .avatar img { display: block; width: 100%; height: auto; }
 #shamelessPlug .info { float: left; margin-left: 15px; line-height: 60px; }
