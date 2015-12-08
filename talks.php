@@ -171,7 +171,7 @@ header('X-Content-Type-Options: nosniff');
 							</span>
 						</li>
 						<li>
-							<span class="name">Besides</span>
+							<span class="name">BSides</span>
 							<span class="location">Manchester, UK</span>
 							<span class="date">
 								<span class="day">25</span>
