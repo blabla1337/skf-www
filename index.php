@@ -140,13 +140,13 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 		<div class="inner">
 			<div class="item">
 				<div class="date">
-					<span class="day">12</span>
-					<span class="month">nov</span>
-					<span class="year">2015</span>
+					<span class="day">18</span>
+					<span class="month">feb</span>
+					<span class="year">2016</span>
 				</div>
 				<div class="text">
-					<h4>BlackhatEU</h4>
-					<p>We will be giving a talk about SKF at Blackhat Arsenal in Amsterdam! See you there.</p>
+					<h4>OWASP</h4>
+					<p>We will be giving a talk about SKF at the OWASP chaptermeeting.</p>
 				</div>
 			</div>
 			<div class="item">
