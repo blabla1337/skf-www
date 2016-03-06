@@ -157,7 +157,7 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 				</div>
 				<div class="text">
 					<h4>Security update</h4>
-					<p>We made a little security oops, new release done today. special thanks to Martin Knobloch!</p>
+					<p>We made a little security oops, new release done today. special thanks to Martin Knobloch for reporting!</p>
 				</div>
 			</div>
 		</div>
