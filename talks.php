@@ -117,6 +117,14 @@ header('X-Content-Type-Options: nosniff');
 				<div id="pastEvents">
 					<ul>
 						<li>
+							<span class="name">OWASP NL Chapter meeting</span>
+							<span class="location">The Hague University of Applied Sciences, NL</span>
+							<span class="date">
+								<span class="day">18</span>
+								<span class="month">02</span>
+								<span class="year">2016</span>
+							</span>
+						</li>						<li>
 							<span class="name">BlackhatEU, Arsenal</span>
 							<span class="location">Amsterdam, NL</span>
 							<span class="date">
@@ -220,23 +228,23 @@ header('X-Content-Type-Options: nosniff');
 					
 					<div id="calendar">
 						<div class="event">
-							<div class="name">BlackhatEU, Arsenal</div>
+							<div class="name">OWASP BeNeLux Day</div>
 							<div class="row top">
 								<div class="left">When:</div>
 								<div class="right">
-									<span class="day">12</span>
-									<span class="month">November</span>
-									<span class="year">2015</span>
+									<span class="day">16</span>
+									<span class="month">March</span>
+									<span class="year">2016</span>
 								</div>
 							</div>
 							<div class="row">
 								<div class="left">Where:</div>
 								<div class="right">
-									<div class="location">Amsterdam, the Netherlands</div>
+									<div class="location">University of Luxembourg, Luxembourg</div>
 								</div>
 							</div>
 							<div class="row web">
-								<a class="btn solid" href="https://www.blackhat.com/eu-15/arsenal.html">more information</a>
+								<a class="btn solid" href="https://www.owasp.org/index.php/BeNeLux_OWASP_Day_2016">more information</a>
 							</div>
 						</div>
 					</div>
