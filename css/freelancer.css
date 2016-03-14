@@ -4,11 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
-    overflow-x: hidden;
-	margin: 0; padding: 0;
-}
-
+html { height: 100%; } 
 p.small {
     font-size: 16px;
 }
@@ -88,6 +84,11 @@ body {
 	background: -ms-linear-gradient(-45deg, #515594 0%,#e56769 100%);
 	background: linear-gradient(135deg, #515594 0%,#e56769 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#515594', endColorstr='#e56769',GradientType=1 ); 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
@@ -572,16 +573,24 @@ footer .footer { float: left; width: 100%; color: #fff; padding: 30px 0; text-al
 /* Notification */
 
 #notification { background: rgba(255,255,255,0.2);  color: #fff; padding: 30px 0; text-align: center; position: relative; float: left; width: 100%; }
-#notification .date { color: #e8e8e8; font-size: 11px; font-weight: normal; float: left; width: 10%; }
-#notification .date > span { display: block; }
-#notification .date .day { font-size: 2.5em; line-height: 1em; }
-#notification .date .month { font-size: 1.3em; }
+#notification .item > .date { color: #e8e8e8; font-size: 11px; font-weight: normal; float: left; width: 10%; }
+#notification .item > .date > span { display: block; }
+#notification .item > .date .day { font-size: 2.5em; line-height: 1em; }
+#notification .item > .date .month { font-size: 1.1em; }
 #notification .item { float: left; width: 50%; }
 #notification .inner { width: 100%; margin: 0 auto; max-width: 1170px; }
 #notification .text { float: left; margin-left: 5%; width: 75%; text-align: left; }
 #notification h4 { color: #fff; margin-top: 0; font-family: "Ruda",sans-serif;  }
 #notification a { color: #fff; text-decoration: underline; }
 #notification a:hover { text-decoration: none; }
+
+#notification .hasImg .img { float: left; width: 100%; border-radius: 100%; overflow: hidden; }
+#notification .hasImg img { display: block; width: 100%; height: auto; }
+#notification .hasImg .text { float: left; width: 50%; }
+#notification .hasImg .left { float: left; width: 15%; }
+#notification .hasImg .left .date { width: 100%; }
+#notification .hasImg .footer { font-size: 0.8em; }
+#notification .hasImg .hasButton .date:after { content: "|"; display: inline-block; margin: 0 0.5em; }
 
 /* Details */
 
@@ -701,6 +710,9 @@ body.fail .btn:hover { background: #7c81b5; }
 	#notification  .date .year { font-size: 1em; display: inline-block; padding: 10px 0; }
 	#notification .text { margin: 0; width: 100%; }
 	
+	#notification .hasImg .left { float: none; margin: 0 auto; min-width: 100px; }
+	#notification .hasImg .text { width: 100%; padding-top: 1em; }
+	
 	.gradient { float: left; width: 100%; 
 	
 	background: #515594;
@@ -777,12 +789,15 @@ body.fail .btn:hover { background: #7c81b5; }
 	#details h3 { font-size: 1.3em; }	
 	
 	#notification * { box-sizing: unset; }
+	#notification .item { width: 100%; }
 	#notification .inner { float: left; width: 90%; padding: 0 5%; }
 	#notification .date { width: 100%; }
 	#notification .date .day,
 	#notification .date .month,
-	#notification  .date .year { font-size: 1em; display: inline-block; padding: 10px 0; }
+	#notification .date .year { font-size: 1em; display: inline-block; padding: 10px 0; }
 	#notification .text { margin: 0; width: 100%; }
+
+	#notification .hasImg .text { width: 80%; padding-left: 5%; padding-top: 1em; }
 	
 	.gradient { float: left; width: 100%; 
 	
@@ -849,8 +864,18 @@ body.fail .btn:hover { background: #7c81b5; }
 	#pastEvents .location { width: 50%; font-size: 0.9em; }
 	#pastEvents .date { width: 50%; font-size: 0.9em; text-align: right; }
 
-	#calendar .event	.left { width: 100%; margin: 0; font-size: 0.9em; color: #9e9e9e; }
-	#calendar .event	.right { width: 100%; }
+	#calendar .event .left { width: 100%; margin: 0; font-size: 0.9em; color: #9e9e9e; }
+	#calendar .event .right { width: 100%; }
+	
+	#notification .inner { width: 90%; padding: 0 5%; float: left; }
+	#notification .hasImg .text { width: 80%; margin-left: 5%; padding: 0; padding-top: 1em; }
+	#notification .item { width: 47.5%; }
+	#notification .item:last-child { margin-left: 5%; }
 	
 }
-
+@media(min-width: 769px) and (max-width: 1280px) {
+	#notification .inner { width: 90%; padding: 0 5%; float: left; }
+	#notification .hasImg .text { width: 80%; margin-left: 5%; padding: 0; padding-top: 1em; }
+	#notification .item { width: 47.5%; }
+	#notification .item:last-child { margin-left: 5%; }
+}

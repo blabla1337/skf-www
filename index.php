@@ -134,30 +134,34 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
         </div>
     </header>
 	
-	<!-- News -->
+	<!-- News 
+	 # When item has link, add class "hasButton" to parent paragraph
+	-->
 	
 	<section id="notification">
 		<div class="inner">
-			<div class="item">
-				<div class="date">
-					<span class="day">18</span>
-					<span class="month">March</span>
-					<span class="year">2016</span>
+			<div class="item hasImg">
+				<div class="left">
+					<div class="img">
+						<img src="img/news/20160314/logo-blackduck.jpg" />
+					</div>
 				</div>
 				<div class="text">
-					<h4>OWASP</h4>
-					<p>Presentation about skf on the OWASP BeNeLux Days</p>
+					<h4>2015 Open Source Rookies of the Year</h4>					
+					<p>We are honored to receive a <b>honorable mention</b> for the Black Duck Open Source Rookies of the Year awards.</p>
+					<p class="footer hasButton"><span class="date">14-03-2016</span><a href="https://info.blackducksoftware.com/OpenSourceRookies2015.html" target="_blank">Article on blackducksoftware.com</a></p>
 				</div>
 			</div>
-			<div class="item">
-				<div class="date">
-					<span class="day">6</span>
-					<span class="month">March</span>
-					<span class="year">2016</span>
+			<div class="item hasImg">
+				<div class="left">
+					<div class="img">
+						<img src="img/news/20160218/logo-owasp-benelux.jpg" />
+					</div>
 				</div>
 				<div class="text">
-					<h4>Security update</h4>
-					<p>We made a little security oops, new release done today. special thanks to Martin Knobloch for reporting!</p>
+					<h4>OWASP</h4>					
+					<p>Presentation about skf on the OWASP BeNeLux Days</p>
+					<p class="footer"><span class="date">18-02-2016</span></p>
 				</div>
 			</div>
 		</div>
