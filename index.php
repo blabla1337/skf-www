@@ -302,7 +302,7 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 						<div class="text">
 							<h4>Glenn ten Cate</h4>
 							<p>As a coder, hacker, speaker, trainer and security researcher Glenn has over 10 years experience in the field of security. Employed as a security engineer at Schuberg Philis in the Netherlands and speaking at multiple security conferences. His goals is to create an open-source software development life cycle with the tools and knowledge gathered over the years.</p>
-							<p><span class="square"><i class="fa fa-linkedin"></i></span> <a class="linkedin" href="https://www.linkedin.com/profile/view?id=140628259">Linkedin Profile</a></p>
+							<p><span class="square"><i class="fa fa-linkedin"></i></span> <a class="linkedin" href="https://www.linkedin.com/in/glenn-ten-cate-11711a3b">Linkedin Profile</a></p>
 						</div>
 					</div>
 					<div class="user">
@@ -312,7 +312,7 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 						<div class="text">
 							<h4>Riccardo ten Cate</h4>
 							<p>As a penetration tester from the Netherlands employed at The S-Unit Riccardo specialises in web-application security and has extensive knowledge in securing web applications in multiple coding languages.</p>
-							<p><span class="square"><i class="fa fa-linkedin"></i></span> <a class="linkedin" href="https://www.linkedin.com/profile/view?id=288596459">Linkedin Profile</a></p>
+							<p><span class="square"><i class="fa fa-linkedin"></i></span> <a class="linkedin" href="https://www.linkedin.com/in/riccardo-ten-cate-a0b79780">Linkedin Profile</a></p>
 						</div>
 					</div>
 				</div>
