@@ -1,9 +1,9 @@
 <?php
 
-if (empty($_SERVER['HTTPS'])) {
-    header('Location: https://www.securityknowledgeframework.org/');
-    exit();
-}
+#if (empty($_SERVER['HTTPS'])) {
+#    header('Location: https://www.securityknowledgeframework.org/');
+#    exit();
+#}
 
 header('Strict-Transport-Security: max-age=16070400; includeSubDomains');
 header('X-Frame-Options: deny');
