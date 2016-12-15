@@ -140,7 +140,7 @@ header('X-Content-Type-Options: nosniff');
 			</div>
 		</div>
 		<div class="container footer">
-			&copy; 2015 Security Knowledge Framework
+			&copy; 2017 Security Knowledge Framework
 		</div>
 	</footer>
 
