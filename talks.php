@@ -260,7 +260,7 @@ header('X-Content-Type-Options: nosniff');
 						<div class="contact">
 							<div class="member">
 								<div class="avatar">
-									<img src="img/team/glenn-ten-cate.jpg" width="300" height="300" alt="Glenn ten Cate" />
+									<img src="img/team/glenn-ten-cate-hat.jpg" width="300" height="300" alt="Glenn ten Cate" />
 								</div>
 								<div class="info">
 									<p><span class="square"><i class="fa fa-linkedin"></i></span> <a href="https://www.linkedin.com/profile/view?id=140628259" class="linkedin" target="_blank">Glenn ten Cate</a></p>
@@ -297,7 +297,7 @@ header('X-Content-Type-Options: nosniff');
 			</div>
 		</div>
 		<div class="container footer">
-			&copy; 2015 Security Knowledge Framework
+			&copy; 2017 Security Knowledge Framework
 		</div>
 	</footer>
 
