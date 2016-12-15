@@ -10,8 +10,7 @@ header('X-Frame-Options: deny');
 header('X-XSS-Protection: 1; mode=block');
 header('X-Content-Type-Options: nosniff');
 
-$api_key_demo = "m776861145-d60d8f272b3b299802ea4af8";
-$api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
+
 
 ?>
 <!DOCTYPE html>
@@ -297,11 +296,11 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 					<h3>Authors</h3>
 					<div class="user">
 						<div class="avatar">
-							<img src="img/team/glenn-ten-cate.jpg" width="300" height="300" alt="Glenn ten Cate" />
+							<img src="img/team/glenn-ten-cate-hat.jpg" width="300" height="300" alt="Glenn ten Cate" />
 						</div>
 						<div class="text">
 							<h4>Glenn ten Cate</h4>
-							<p>As a coder, hacker, speaker, trainer and security researcher Glenn has over 10 years experience in the field of security. Employed as a security engineer at Schuberg Philis in the Netherlands and speaking at multiple security conferences. His goals is to create an open-source software development life cycle with the tools and knowledge gathered over the years.</p>
+							<p>As a coder, hacker, speaker, trainer and security researcher Glenn has over 10 years experience in the field of security. One of the founders of defensive development [defdev] a security training and conference series dedicated to helping you build and maintain secure software and also speaking at multiple other security conferences in the world. His goals is to create an open-source software development life cycle with the tools and knowledge gathered over the years.</p>
 							<p><span class="square"><i class="fa fa-linkedin"></i></span> <a class="linkedin" href="https://www.linkedin.com/in/glenn-ten-cate-11711a3b">Linkedin Profile</a></p>
 						</div>
 					</div>
@@ -311,7 +310,7 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 						</div>
 						<div class="text">
 							<h4>Riccardo ten Cate</h4>
-							<p>As a penetration tester from the Netherlands employed at The S-Unit Riccardo specialises in web-application security and has extensive knowledge in securing web applications in multiple coding languages.</p>
+							<p>As a penetration tester from the Netherlands employed at Nixu Riccardo specialises in web-application security and has extensive knowledge in securing web applications in multiple coding languages.</p>
 							<p><span class="square"><i class="fa fa-linkedin"></i></span> <a class="linkedin" href="https://www.linkedin.com/in/riccardo-ten-cate-a0b79780">Linkedin Profile</a></p>
 						</div>
 					</div>
@@ -336,7 +335,7 @@ $api_key_www = "m776861146-97cc8bd376321f69e6286cfc";
 				</div>
 			</div>
 			<div class="container footer">
-				&copy; 2015 Security Knowledge Framework
+				&copy; 2017 Security Knowledge Framework
 			</div>
 		</div>
 	</footer>
