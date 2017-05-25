@@ -300,7 +300,7 @@ header('X-Content-Type-Options: nosniff');
 						</div>
 						<div class="text">
 							<h4>Glenn ten Cate</h4>
-							<p>As a coder, hacker, speaker, trainer and security researcher Glenn has over 10 years experience in the field of security. One of the founders of defensive development [defdev] a security training and conference series dedicated to helping you build and maintain secure software and also speaking at multiple other security conferences in the world. His goals is to create an open-source software development life cycle with the tools and knowledge gathered over the years.</p>
+							<p>As a coder, hacker, speaker, trainer and security researcher employed at L&B ICT Glenn has over 10 years experience in the field of security. One of the founders of defensive development [defdev] a security training and conference series dedicated to helping you build and maintain secure software and also speaking at multiple other security conferences in the world. His goals is to create an open-source software development life cycle with the tools and knowledge gathered over the years.</p>
 							<p><span class="square"><i class="fa fa-linkedin"></i></span> <a class="linkedin" href="https://www.linkedin.com/in/glenn-ten-cate-11711a3b">Linkedin Profile</a></p>
 						</div>
 					</div>
@@ -310,7 +310,7 @@ header('X-Content-Type-Options: nosniff');
 						</div>
 						<div class="text">
 							<h4>Riccardo ten Cate</h4>
-							<p>As a penetration tester from the Netherlands employed at Nixu Riccardo specialises in web-application security and has extensive knowledge in securing web applications in multiple coding languages.</p>
+							<p>As a penetration tester from the Netherlands employed at L&B ICT Riccardo specialises in web-application security and has extensive knowledge in securing web applications in multiple coding languages.</p>
 							<p><span class="square"><i class="fa fa-linkedin"></i></span> <a class="linkedin" href="https://www.linkedin.com/in/riccardo-ten-cate-a0b79780">Linkedin Profile</a></p>
 						</div>
 					</div>
