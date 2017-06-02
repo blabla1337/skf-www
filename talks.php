@@ -48,6 +48,13 @@ header('X-Content-Type-Options: nosniff');
 </head>
 
 <body id="page-top" class="gradient demo">
+	
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'Security-Knowledge-Framework/Lobby'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
