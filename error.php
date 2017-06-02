@@ -49,6 +49,13 @@ header('X-Content-Type-Options: nosniff');
 
 <body id="page-top" class="fail">
 	
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'Security-Knowledge-Framework/Lobby'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
 	<div id="errorContainer">
 		<div class="inner">
 			<div class="wrapper">
