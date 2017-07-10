@@ -147,7 +147,7 @@ header('X-Content-Type-Options: nosniff');
 			<div class="item hasImg">
 				<div class="left">
 					<div class="img">
-						<img src="img/wasper.jpg" />
+						<img src="img/wasper.png" />
 					</div>
 				</div>
 				<div class="text">
@@ -159,7 +159,7 @@ header('X-Content-Type-Options: nosniff');
 			<div class="item hasImg">
 				<div class="left">
 					<div class="img">
-						<img src="img/wasper.jpg" />
+						<img src="img/wasper.png" />
 					</div>
 				</div>
 				<div class="text">
