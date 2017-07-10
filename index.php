@@ -164,7 +164,7 @@ header('X-Content-Type-Options: nosniff');
 				</div>
 				<div class="text">
 					<h4>SKF new release!</h4>					
-					<p>A brand new flask API backend. A brand new Angular front-end and ofcourse brand new features!</p>
+					<p>A brand new flask API backend. A brand new Angular front-end and ofcourse brand new features! + JAVA code examples added by our friends from TwelveSec in greece!</p>
 					<p class="footer"><span class="date">10-07-2017</span></p>
 				</div>
 			</div>
