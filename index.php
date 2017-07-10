@@ -147,25 +147,25 @@ header('X-Content-Type-Options: nosniff');
 			<div class="item hasImg">
 				<div class="left">
 					<div class="img">
-						<img src="img/news/20160314/logo-blackduck.jpg" />
+						<img src="img/wasper.jpg" />
 					</div>
 				</div>
 				<div class="text">
-					<h4>2015 Open Source Rookies of the Year</h4>					
-					<p>We are honored to receive a <b>honorable mention</b> for the Black Duck Open Source Rookies of the Year awards.</p>
-					<p class="footer hasButton"><span class="date">14-03-2016</span><a href="https://info.blackducksoftware.com/OpenSourceRookies2015.html" target="_blank">Article on blackducksoftware.com</a></p>
+					<h4>WASPY awards nominees</h4>					
+					<p>We are honored to receive a nomination for the WASPY awards with regards to innovation!</p>
+					<p class="footer hasButton"><span class="date">05-037-2017</span><a href="https://www.owasp.org/index.php/WASPY_Awards_2017" target="_blank">WASPY page</a></p>
 				</div>
 			</div>
 			<div class="item hasImg">
 				<div class="left">
 					<div class="img">
-						<img src="img/news/20160218/logo-owasp-benelux.jpg" />
+						<img src="img/wasper.jpg" />
 					</div>
 				</div>
 				<div class="text">
-					<h4>OWASP</h4>					
-					<p>Presentation about skf on the OWASP BeNeLux Days</p>
-					<p class="footer"><span class="date">18-02-2016</span></p>
+					<h4>SKF new release!</h4>					
+					<p>A brand new flask API backend. A brand new Angular front-end and ofcourse brand new features!</p>
+					<p class="footer"><span class="date">10-07-2017</span></p>
 				</div>
 			</div>
 		</div>
