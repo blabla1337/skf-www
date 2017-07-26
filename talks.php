@@ -141,7 +141,7 @@ fbq('track', 'PageView');
 							<span class="location">Belgium</span>
 							<span class="date">
 								<span class="day">15</span>
-								<span class="month">June</span>
+								<span class="month">06</span>
 								<span class="year">2017</span>
 							</span>
 						</li>			
@@ -149,8 +149,8 @@ fbq('track', 'PageView');
 							<span class="name">GOTO</span>
 							<span class="location">Amsterdam, NL</span>
 							<span class="date">
-								<span class="day">13/4</span>
-								<span class="month">June</span>
+								<span class="day">13</span>
+								<span class="month">06</span>
 								<span class="year">2017</span>
 							</span>
 						</li>	
@@ -276,19 +276,19 @@ fbq('track', 'PageView');
 					
 					<div id="calendar">
 						<div class="event">
-							<div class="name">Movements</div>
+							<div class="name">SWIFT</div>
 							<div class="row top">
 								<div class="left">When:</div>
 								<div class="right">
-									<span class="day">14</span>
-									<span class="month">Juli</span>
-									<span class="year">2016</span>
+									<span class="day">16</span>
+									<span class="month">06</span>
+									<span class="year">2017</span>
 								</div>
 							</div>
 							<div class="row">
 								<div class="left">Where:</div>
 								<div class="right">
-									<div class="location">Netherlands</div>
+									<div class="location">Belgium</div>
 								</div>
 							</div>
 							<div class="row web">
