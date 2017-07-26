@@ -155,6 +155,15 @@ fbq('track', 'PageView');
 							</span>
 						</li>	
 						<li>
+							<span class="name">Devoxx</span>
+							<span class="location">Belgium</span>
+							<span class="date">
+								<span class="day">9</span>
+								<span class="month">11</span>
+								<span class="year">2016</span>
+							</span>
+						</li>
+						<li>
 							<span class="name">OWASP NL Chapter meeting</span>
 							<span class="location">The Hague University of Applied Sciences, NL</span>
 							<span class="date">
@@ -253,15 +262,7 @@ fbq('track', 'PageView');
 								<span class="year">2015</span>
 							</span>
 						</li>
-							<li>
-							<span class="name">Devoxx</span>
-							<span class="location">Belgium</span>
-							<span class="date">
-								<span class="day">9</span>
-								<span class="month">11</span>
-								<span class="year">2016</span>
-							</span>
-						</li>
+	
 					</ul>
 				</div> 
 				
