@@ -166,7 +166,7 @@ fbq('track', 'PageView');
 				<div class="text">
 					<h4>WASPY awards nominees</h4>					
 					<p>We are honored to receive a nomination for the WASPY awards with regards to innovation!</p>
-					<p class="footer hasButton"><span class="date">05-037-2017</span><a href="https://www.owasp.org/index.php/WASPY_Awards_2017" target="_blank">WASPY page</a></p>
+					<p class="footer hasButton"><span class="date">05-07-2017</span><a href="https://www.owasp.org/index.php/WASPY_Awards_2017" target="_blank">WASPY page</a></p>
 				</div>
 			</div>
 			<div class="item hasImg">
