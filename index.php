@@ -1,15 +1,14 @@
 <?php
 
-#if (empty($_SERVER['HTTPS'])) {
-#    header('Location: https://www.securityknowledgeframework.org/');
-#    exit();
-#}
+if (empty($_SERVER['HTTPS'])) {
+    header('Location: https://www.securityknowledgeframework.org/');
+    exit();
+}
 
-//header('Strict-Transport-Security: max-age=16070400; includeSubDomains');
-//header('X-Frame-Options: deny');
-//header('X-XSS-Protection: 1; mode=block');
-//header('X-Content-Type-Options: nosniff');
-
+header('Strict-Transport-Security: max-age=16070400; includeSubDomains');
+header('X-Frame-Options: deny');
+header('X-XSS-Protection: 1; mode=block');
+header('X-Content-Type-Options: nosniff');
 
 
 ?>
