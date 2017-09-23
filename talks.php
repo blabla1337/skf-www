@@ -277,19 +277,19 @@ fbq('track', 'PageView');
 					
 					<div id="calendar">
 						<div class="event">
-							<div class="name">SWIFT</div>
+							<div class="name">Security Espresso</div>
 							<div class="row top">
 								<div class="left">When:</div>
 								<div class="right">
-									<span class="day">16</span>
-									<span class="month">06</span>
+									<span class="day">28</span>
+									<span class="month">09</span>
 									<span class="year">2017</span>
 								</div>
 							</div>
 							<div class="row">
 								<div class="left">Where:</div>
 								<div class="right">
-									<div class="location">Belgium</div>
+									<div class="location">Bucharest Online</div>
 								</div>
 							</div>
 							<div class="row web">
