@@ -137,6 +137,24 @@ fbq('track', 'PageView');
 				<div id="pastEvents">
 					<ul>
 						<li>
+							<span class="name">OWASP Poland day</span>
+							<span class="location">Poland</span>
+							<span class="date">
+								<span class="day">02</span>
+								<span class="month">10</span>
+								<span class="year">2017</span>
+							</span>
+						</li>		
+						<li>
+							<span class="name">Security Espresso</span>
+							<span class="location">Bucharest</span>
+							<span class="date">
+								<span class="day">28</span>
+								<span class="month">09</span>
+								<span class="year">2017</span>
+							</span>
+						</li>		
+						<li>
 							<span class="name">SWIFT</span>
 							<span class="location">Belgium</span>
 							<span class="date">
@@ -277,19 +295,19 @@ fbq('track', 'PageView');
 					
 					<div id="calendar">
 						<div class="event">
-							<div class="name">Security Espresso</div>
+							<div class="name">KNVI Conference</div>
 							<div class="row top">
 								<div class="left">When:</div>
 								<div class="right">
-									<span class="day">28</span>
-									<span class="month">09</span>
+									<span class="day">09</span>
+									<span class="month">10</span>
 									<span class="year">2017</span>
 								</div>
 							</div>
 							<div class="row">
 								<div class="left">Where:</div>
 								<div class="right">
-									<div class="location">Bucharest Online</div>
+									<div class="location">Nieuwegein, NL</div>
 								</div>
 							</div>
 							<div class="row web">
