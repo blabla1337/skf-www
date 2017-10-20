@@ -137,6 +137,15 @@ fbq('track', 'PageView');
 				<div id="pastEvents">
 					<ul>
 						<li>
+							<span class="name">Dutch Cyber Warfare Community</span>
+							<span class="location">Diemen, NL</span>
+							<span class="date">
+								<span class="day">10</span>
+								<span class="month">10</span>
+								<span class="year">2017</span>
+							</span>
+						</li>	
+						<li>
 							<span class="name">OWASP Poland day</span>
 							<span class="location">Poland</span>
 							<span class="date">
@@ -300,7 +309,7 @@ fbq('track', 'PageView');
 								<div class="left">When:</div>
 								<div class="right">
 									<span class="day">09</span>
-									<span class="month">10</span>
+									<span class="month">11</span>
 									<span class="year">2017</span>
 								</div>
 							</div>
