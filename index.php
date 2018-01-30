@@ -175,9 +175,9 @@ fbq('track', 'PageView');
 					</div>
 				</div>
 				<div class="text">
-					<h4>SKF new release!</h4>					
-					<p>A brand new flask API backend. A brand new Angular front-end and ofcourse brand new features! + JAVA code examples added by our friends from TwelveSec in greece!</p>
-					<p class="footer"><span class="date">10-07-2017</span></p>
+					<h4>Tweakers dev summit</h4>					
+					<p>We will be doing a presentation about the SKF and introduce some new upcomming features</p>
+					<p class="footer"><span class="date">15-02-2018</span></p>
 				</div>
 			</div>
 		</div>
