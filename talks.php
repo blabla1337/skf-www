@@ -136,6 +136,15 @@ fbq('track', 'PageView');
 				
 				<div id="pastEvents">
 					<ul>
+								<li>
+							<span class="name">Tweakers Dev summit</span>
+							<span class="location">Utrecht, NL</span>
+							<span class="date">
+								<span class="day">15</span>
+								<span class="month">02</span>
+								<span class="year">2018</span>
+							</span>
+						</li>
 						<li>
 							<span class="name">Dutch Cyber Warfare Community</span>
 							<span class="location">Diemen, NL</span>
