@@ -160,7 +160,7 @@ fbq('track', 'PageView');
 			</div>
 		</div>
 		<div class="container footer">
-			&copy; 2017 Security Knowledge Framework
+			&copy; 2018 Security Knowledge Framework
 		</div>
 	</footer>
 
