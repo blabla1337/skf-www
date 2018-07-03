@@ -1,7 +1,7 @@
 <?php
 
 header('Strict-Transport-Security: max-age=16070400; includeSubDomains');
-header('X-Frame-Options: deny');
+header('X-Frame-Options: ALLOW-FROM https://demo.securityknowledgeframework.org/');
 header('X-XSS-Protection: 1; mode=block');
 header('X-Content-Type-Options: nosniff');
 
@@ -77,10 +77,10 @@ fbq('track', 'PageView');
 					<img class="fa-spin" src="https://www.securityknowledgeframework.org/img/logos/logo.svg" width="120" height="120" alt="logo" />
 				</div>
 			
-				<h1>Our demo is temporarily unavailable</h1>
+				<h1>Our demo is temporarily unavailable. CI CD stuff</h1>
 
-				<h3>The SKF demo site is currently under construction and updating!<br />
-				We apologize for the inconvenience. </h3>
+				<h3>The SKF demo site is currently being deployed with the latest version from Github!<br />
+				This will take approximately 5 min. We apologize for the inconvenience. </h3>
 				
 				<p><a class="btn" href="index.php">Return to the homescreen</a> <a class="btn" style="margin-left: 20px;" href="https://github.com/blabla1337/skf-flask"><i class="fa fa-github" style="margin-right: 10px;"></i> Download SKF</a></p>
 				
