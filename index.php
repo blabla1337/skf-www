@@ -327,7 +327,7 @@ fbq('track', 'PageView');
 						</div>
 						<div class="text">
 							<h4>Riccardo ten Cate</h4>
-							<p>As a penetration tester from the Netherlands employed at Xebia Riccardo specialises in web-application security and has extensive knowledge in securing web applications in multiple coding languages.</p>
+							<p>As a penetration tester from the Netherlands employed at Zerocopter Riccardo specialises in web-application security and has extensive knowledge in securing web applications in multiple coding languages.</p>
 							<p><span class="square"><i class="fa fa-linkedin"></i></span> <a class="linkedin" href="https://www.linkedin.com/in/riccardo-ten-cate-a0b79780">Linkedin Profile</a></p>
 						</div>
 					</div>
