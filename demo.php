@@ -139,7 +139,15 @@ fbq('track', 'PageView');
 						<li><strong>Username:</strong> admin</li>
 						<li><strong>Password:</strong> test-skf</li>
 					</ul>
-					<a class="btn solid" href="https://demo.securityknowledgeframework.org">View the demo!</a>
+					<a class="btn solid" href="https://demo.securityknowledgeframework.org">View the Beta!</a>
+				</div>
+								<div class="wrap login">
+					<h3>Login Beta</h3>
+					<ul>
+						<li><strong>Username:</strong> admin</li>
+						<li><strong>Password:</strong> admin</li>
+					</ul>
+					<a class="btn solid" href="https://beta.securityknowledgeframework.org">View the Beta!</a>
 				</div>
 			</div>
 		</div>
