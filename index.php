@@ -317,7 +317,7 @@ fbq('track', 'PageView');
 						</div>
 						<div class="text">
 							<h4>Glenn ten Cate</h4>
-							<p>As a coder, hacker, speaker, trainer and security researcher employed at ING Belgium Glenn has over 10 years experience in the field of security. One of the founders of defensive development [defdev] a security training and conference series dedicated to helping you build and maintain secure software and also speaking at multiple other security conferences in the world. His goals is to create an open-source software development life cycle with the tools and knowledge gathered over the years.</p>
+							<p>As a coder, hacker, speaker, trainer and security researcher employed at ING Belgium Glenn has over 15 years experience in the field of security. One of the founders of defensive development def[dev]eu a security training and conference series dedicated to helping you build and maintain secure software and also speaking at multiple other security conferences in the world. His goals is to create an open-source software development life cycle with the tools and knowledge gathered over the years.</p>
 							<p><span class="square"><i class="fa fa-linkedin"></i></span> <a class="linkedin" href="https://www.linkedin.com/in/glenn-ten-cate-11711a3b">Linkedin Profile</a></p>
 						</div>
 					</div>
