@@ -203,7 +203,7 @@ fbq('track', 'PageView');
 				</div>
 			</div>
 			<div class="container footer">
-				&copy; 2018 Security Knowledge Framework
+				&copy; 2019 Security Knowledge Framework
 			</div>
 		</div>
 	</footer>
