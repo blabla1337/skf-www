@@ -163,9 +163,9 @@ fbq('track', 'PageView');
 					</div>
 				</div>
 				<div class="text">
-					<h4>WASPY awards nominees</h4>					
-					<p>We are honored to receive a nomination for the WASPY awards with regards to innovation!</p>
-					<p class="footer hasButton"><span class="date">05-07-2017</span><a href="https://www.owasp.org/index.php/WASPY_Awards_2017" target="_blank">WASPY page</a></p>
+					<h4>Major new release SKF</h4>					
+					<p>We are to announce that we are having a new Major release of SKF ready!</p>
+					Release date <span class="date">27-09-2019</span> @OWASP AppSec Amstedam</p>
 				</div>
 			</div>
 			<div class="item hasImg">
@@ -175,9 +175,9 @@ fbq('track', 'PageView');
 					</div>
 				</div>
 				<div class="text">
-					<h4>Tweakers dev summit</h4>					
-					<p>We will be doing a presentation about the SKF and introduce some new upcomming features</p>
-					<p class="footer"><span class="date">15-02-2018</span></p>
+					<h4>OWASP Appsec Amsterdam</h4>					
+					<p>We will be doing a presentation about the new SKF release and demo the new features</p>
+					<p class="footer"><span class="date">27-09-2019</span></p>
 				</div>
 			</div>
 		</div>
@@ -352,7 +352,7 @@ fbq('track', 'PageView');
 				</div>
 			</div>
 			<div class="container footer">
-				&copy; 2018 Security Knowledge Framework
+				&copy; 2019 Security Knowledge Framework
 			</div>
 		</div>
 	</footer>
