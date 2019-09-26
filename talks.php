@@ -325,7 +325,7 @@ fbq('track', 'PageView');
 							<div class="row">
 								<div class="left">Where:</div>
 								<div class="right">
-									<div class="location">Nieuwegein, NL</div>
+									<div class="location">Amsterdam RAI, NL</div>
 								</div>
 							</div>
 							<div class="row web">
