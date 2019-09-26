@@ -313,13 +313,13 @@ fbq('track', 'PageView');
 					
 					<div id="calendar">
 						<div class="event">
-							<div class="name">KNVI Conference</div>
+							<div class="name">OWASP AppSec 2019</div>
 							<div class="row top">
 								<div class="left">When:</div>
 								<div class="right">
-									<span class="day">09</span>
-									<span class="month">11</span>
-									<span class="year">2017</span>
+									<span class="day">27</span>
+									<span class="month">09</span>
+									<span class="year">2019</span>
 								</div>
 							</div>
 							<div class="row">
@@ -382,7 +382,7 @@ fbq('track', 'PageView');
 			</div>
 		</div>
 		<div class="container footer">
-			&copy; 2018 Security Knowledge Framework
+			&copy; 2019 Security Knowledge Framework
 		</div>
 	</footer>
 
