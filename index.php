@@ -298,7 +298,7 @@ fbq('track', 'PageView');
 			<div class="col left">
 				<div class="inner">
 					<h3>What is SKF?</h3>
-					<p>Over 10 years of experience in web application security bundled into a single application. The Security Knowledge Framework is a vital asset to the coding toolkit of you and your development team. Use SKF to learn and integrate security by design in your web application.</p><p> SKF is an open source security knowledgebase including <b>manageble projects</b> with <b>checklists</b> and best practice <b>code examples</b> in multiple programming languages showing you how to prevent hackers gaining access and running exploits on your application.</p>
+					<p>Over 15 years of experience in web application security bundled into a single application. The Security Knowledge Framework is a vital asset to the coding toolkit of you and your development team. Use SKF to learn and integrate security by design in your web application.</p><p> SKF is an open source security knowledgebase including <b>manageble projects</b> with <b>checklists</b> and best practice <b>code examples</b> in multiple programming languages showing you how to prevent hackers gaining access and running exploits on your application.</p>
 					<h3>In a nutshell</h3>
 					<ul>
 						<li>Training your developers in writing secure code</li>
