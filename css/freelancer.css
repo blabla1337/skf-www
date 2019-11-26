@@ -151,7 +151,7 @@ header .container .row { margin-top: 60px; }
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 60px;
+        padding: 60px 0;
 		position: inherit;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
