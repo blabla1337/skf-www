@@ -152,7 +152,7 @@ header .container .row { margin-top: 60px; }
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 60px 0;
-		position: relative;
+		position: inherit;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -663,7 +663,7 @@ body.fail .btn:hover { background: #7c81b5; }
 	.navbar-default .navbar-toggle { padding: 6px; border-color: #7c81b5; }
 	.navbar-default .navbar-toggle:focus,
 	.navbar-default .navbar-toggle:hover { background-color: #7c81b5; }
-	.navbar-fixed-top, .navbar-fixed-bottom { position: relative; }
+	.navbar-fixed-top, .navbar-fixed-bottom { position: inherit; }
 	.navbar-collapse { background: rgba(255,255,255,0.8); }
 	.navbar-default .navbar-nav > li > a,
 	.navbar-default .navbar-nav > .active > a { color: #515594; }
@@ -854,7 +854,7 @@ body.fail .btn:hover { background: #7c81b5; }
 	#details .text { margin: 0; width: 100%; }
 	#details .inner { float: left; width: 100%; }
 	
-	.navbar-fixed-top, .navbar-fixed-bottom { position: relative; }
+	.navbar-fixed-top, .navbar-fixed-bottom { position: inherit;}
 	.navbar-collapse { background: rgba(255,255,255,0.8); }
 	.navbar-default .navbar-nav > li > a,
 	.navbar-default .navbar-nav > .active > a { color: #515594; }
