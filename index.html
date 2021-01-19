@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<title>Security Knowledge Framework</title>
+	<meta name="telephone" content="no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+	<meta name="description" content="">
+
+	<link rel="stylesheet" href="css/site-skf/normalize.css">
+	<link rel="stylesheet" href="css/site-skf/icons.css">
+	<link rel="stylesheet" href="css/site-skf/Default.css">
+
+	<link rel="stylesheet" href="js/scroll/aos/aos.css">
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="images/site-skf/icons/template/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/site-skf/icons/template/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/site-skf/icons/template/favicon-16x16.png">
+	<link rel="manifest" href="images/site-skf/icons/template/site.webmanifest">
+	<link rel="mask-icon" href="images/site-skf/icons/template/safari-pinned-tab.svg" color="#515594">
+	<link rel="shortcut icon" href="images/site-skf/icons/template/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="images/site-skf/icons/template/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	
+	<script src="js/vendor/jquery-1.11.2.min.js"></script>
+	<script src="js/vendor/jquery-ui.1.12.0.min.js"></script>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  
+		ga('create', 'UA-54883827-1', 'auto');
+		ga('send', 'pageview');
+	  
+	  </script>
+
+<script>
+	((window.gitter = {}).chat = {}).options = {
+	  room: 'Security-Knowledge-Framework/Lobby'
+	};
+  </script>
+  <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+</head>
+	
+<body id="page1">
+	
+	<div class="container">
+		
+		<!-- Header -->
+		
+		<header class="header pr">
+			<div class="wrap wide">
+				<div class="inner pt1 pb1 flx flx-jsb flx-ac">
+					
+					<div class="logo flx flx-ac">
+						<span class="img"><img src="images/site-skf/logos/logo.svg" alt="SKF Logo" /></span>
+						<span class="txt pl1">S<span>ecurity </span>K<span>nowledge </span>F<span>ramework</span></span>
+					</div>
+					
+					<nav class="navigation">
+						<div class="toggle">Toggle Navigation</div>
+						<ul>
+							<li class="act"><a href="#start">Download</a></li>
+							<li><a href="#sdlc">Core Features</a></li>
+							<li><a href="#demo">Live Demo</a></li>
+							<li><a href="#service">Service</a></li>
+							<li><a href="#documentation">Documentation</a></li>
+						</ul>
+					</nav>
+					
+				</div>
+			</div>
+		</header>
+		
+		<!-- Hero -->
+		
+		<section id="start" class="hero p0">
+			<div class="slogan">
+				<h1 data-aos="fade-up" data-aos-duration="1000">Training developers in writing secure code</h1>
+				<h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">SKF is a fully <i>open-source</i> Python-Flask web-application that uses the OWASP Application Security Verification Standard to train you and your team in writing secure code, <i>by design</i>.</h2>
+				<ul class="powered" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+					<li><span class="ico ico-owasp"></span> OWASP</li>
+					<li><span class="ico ico-ossf"></span> OpenSSF</li>
+					<li><a href="https://github.com/blabla1337/skf-flask/archive/main.zip" class="btn">Download</a></li>
+					<li><a href="https://github.com/blabla1337/skf-flask" class="btn">Contribute on Github</a></li>
+				</ul>
+			</div>
+			<a class="down" href="javascript:;">Scroll Down</a>
+			<div class="seed"><img src="images/site-skf/logos/seed.svg" alt="Seed of Life" /></div>
+			<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" class="svg" style="height: 52px; width: 100%; fill: rgb(255, 255, 255); opacity: 1; transform: rotate(180deg); position: absolute; bottom: 0; left: 0;">
+			  <path
+				d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z">
+			  </path>
+			</svg>
+		</section>
+		
+		<!-- SKF in your SDLC -->
+		
+		<section id="sdlc" class="bgw">
+			<div class="wrap normal">
+				<div class="inner pt6 pb6">
+					
+					<h2 class="h1 text-center">SKF in your SDLC</h2>
+					<h2 class="text-center">Discover where the Security Knowledge Framework can be implemented in your teams Software Development Life Cycle.</h2>
+					
+					<div class="sdlc">
+						<div class="wrapper">
+							<ul class="design one">
+								<li><a href="javascript:;">Requirements</a>
+									<span class="pop">
+										<ul>
+											<li>Define your projects requirements or create your own scope of requirements. Out of the box SKF comes with ASVS and MASVS checklists and expert systems included.</li>
+										</ul>
+									</span>
+								</li>
+								<li><a href="javascript:;">Design</a>
+									<span class="pop">
+										<ul>
+											<li>Detect possible threats based on the processing functions on your application. Use SKF to define security acceptence criteria for your features, so your developers know from the get-go how to mitigate risks.</li>
+										</ul>
+									</span>								
+								</li>
+								<li><a href="javascript:;">Coding</a>
+									<span class="pop">
+										<ul>
+											<li>An extensive library of common hacks, exploits, and best practices. Learn the hacker mindset and keep your project secure.</li>
+										</ul>
+									</span>								
+								</li>
+								<li><a href="javascript:;">Testing</a>
+									<span class="pop">
+										<ul>
+											<li>All requirements come with Knowledgebase items and references to the OWASP cheat sheet / OWASP testing guide series. SKF also gives reccomendations on tooling that can be used to automate testing of your requirements.</li>
+										</ul>
+									</span>								
+								</li>
+							</ul>
+							<div class="inner">
+								<ul class="design two">
+									<li><a href="javascript:;">Culture Building</a>
+										<span class="pop">
+											<ul>
+												<li>Invite team members and work together and spread a security first mindset.</li>
+											</ul>
+										</span>											
+									</li>
+									<li><a href="javascript:;">Training</a>
+										<span class="pop">
+											<ul>
+												<li>An extensive library of code examples and interactive labs for a wide range of functions, beautifully commented.</li>
+											</ul>
+										</span>										
+									</li>
+									<li><a href="javascript:;">Metrics</a>
+										<span class="pop">
+											<ul>
+												<li>Keep track of open and closed security issues in your project.</li>
+											</ul>
+										</span>										
+									</li>
+								</ul>							
+							</div>
+						</div>
+					</div>
+					
+					<div class="sdlc-modal flx flx-ac flx-jc text-center">
+						<div class="center">
+							<h3 class="name"></h3>
+							<div class="txt"></div>
+						</div>
+						<a class="close" href="javascript:;">Close Modal</a>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		
+		<!-- Popular Features -->
+		
+		<section id="features" class="bgg">
+			<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" class="svg" style="height: 96px; width: 100%; fill: rgb(255, 255, 255); opacity: 1; transform: rotateY(0deg); position: absolute; left: 0; top: 0;">
+				<path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z">
+				</path>
+			</svg>		
+			<div class="wrap normal">
+				<div class="inner pt6 pb6">
+					<h2 class="h1 text-center">SKF Features</h2>
+					<h3 class="h2 text-center">Secure coding starts here.</h3>
+					
+					<div class="features">
+						<ul class="resetList w-100 flx flx-jc">
+							<li>
+								<span class="icon ico-pro"></span>
+								<h4>Projects</h4>
+								<p>Create projects in SKF and start gathering requirements for your features/sprints</p>
+							</li>
+							<li>
+								<span class="icon ico-cod"></span>
+								<h4>Code Examples</h4>
+								<p>An extensive library of common hacks, exploits, and best practices. Learn the hacker mindset and keep your project secure..</p>
+							</li>
+							<li>
+								<span class="icon ico-che"></span>
+								<h4>Checklists</h4>
+								<p>Out of the box SKF comes with ASVS and MASVS included.</p>
+							</li>
+							<li>
+								<span class="icon ico-lab"></span>
+								<h4>Labs</h4>
+								<p>Train your hacking skills with over 50+ interactive labs that you can run locally or trough the SKF UI in your Kubernetes cluster.</p>
+							</li>
+							<li>
+								<span class="icon ico-kno"></span>
+								<h4>Knowledge Base</h4>
+								<p>All requirements are correlated to knowledgebase items to give you more in depth information about attack vectors, impact, mitigation and best practices.</p>
+							</li>
+							<li>
+								<span class="icon ico-use"></span>
+								<h4>User Management</h4>
+								<p>Manage your users by adding linking SKF to your favourite OIDC provider</p>
+							</li>
+							<li>
+								<span class="icon ico-des"></span>
+								<h4>Design Patterns</h4>
+								<p>We included the most used user-stories in SKF to get your team get started quickly implementing ASVS in your projects.</p>
+							</li>
+							<li>
+								<span class="icon ico-sup"></span>
+								<h4>Support</h4>
+								<p>Find us on our Gitter channel to ask us anything about SKF and how to get yourself started.</p>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		
+		<!-- Support -->
+		
+		<section id="demo" class="bgw">
+			<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" class="svg" style="height: 2em; width: 168%; fill: #f9f9f9; opacity: 1; transform: rotateY(180deg); position: absolute; left: 0; top: 0;">
+			  <path
+				d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z">
+			  </path>
+			</svg>
+			<div class="wrap normal">
+				<div class="inner pt6 pb6">
+					<h2 class="h1 text-center">Try the Online Demo</h2>
+					<h3 class="h2 text-center">Running on Raspberry Pi</h3>
+					<div class="demo text-center flx flx-jc">
+						<div class="top w-100 flx flx-jc">
+							<ul class="resetList w-100 flx">
+								<li><strong>Username:</strong> admin</li>
+								<li><strong>Password:</strong> test-skf</li>
+							</ul>
+						</div>
+						<a href="https://demo.securityknowledgeframework.org" class="btn" target="_blank">Online Demo</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- SKF as a service -->
+		
+		<section id="service" class="bgd np">
+			<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"viewBox="0 0 1200 120"preserveAspectRatio="none"class="svg" style="height: 2em; width: 147%; fill: rgb(255, 255, 255); opacity: 1; transform: rotateY(0deg); position: absolute; left: 0; top: 0; z-index: 1;">
+			  <path
+				d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z">
+			  </path>
+			</svg>
+			<div class="tc w-100 flx">
+				<div class="col txt w-50 flx flx-ac flx-jc">
+					<div class="pd3">
+						<h2 class="h1">SKF as a Service</h2>
+						<h3 class="h2">Don't want the hassle of setting up and maintaining your own instance? No problem, we can provide SKF as a SaaS!</h3>				
+						<p><a href="mailto: info@contrahack.io" class="btn white">Contact us!</a></p>				
+					</div>
+				</div>
+				<div class="col pr img w-50">
+					<img src="images/site-skf/banner/banner-001-home-01.jpg" alt="SKF as a Service" />
+				</div>
+			</div>
+			<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"viewBox="0 0 1200 120"preserveAspectRatio="none"class="svg" style="height: 2em; width: 147%; fill: rgb(255, 255, 255); opacity: 1; transform: rotate(180deg); position: absolute; bottom: -1px;">
+			   <path
+				d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z">
+			  </path>
+			</svg>			
+		</section>
+		
+		<!-- Footer -->
+		
+		<section id="documentation" class="bgw">
+			<div class="wrap normal">
+				<div class="inner pt6 pb6">
+					<h2 class="h1 text-center">Get started</h2>
+					<p class="text-center">
+						<a href="https://github.com/blabla1337/skf-flask" class="btn">SKF Main</a>
+						<a href="http://owasp-skf.gitbook.io" class="btn">SKF Labs</a>
+					</li>
+					<div class="docs w-100">
+						<ul class="resetList flx">
+							<li class="w-33">
+								<a href="https://skf.readme.io/docs/introduction" class="flx flx-jsb">
+									<span class="ico ico-kno"></span>
+									<span class="txt">
+										<h4>Documentation</h4>
+										<p>First time users should start here. Instructions on how to install, and troubleshooting.</p>
+									</span>
+								</a>
+							</li>
+							<li class="w-33">
+								<a href="https://github.com/blabla1337/skf-flask" class="flx flx-jsb">
+									<span class="ico ico-git"></span>
+									<span class="txt">
+										<h4>Contribute</h4>
+										<p>We encourage you to contribute to SKF, feel free to fork the project on Github.</p>
+									</span>
+								</a>
+							</li>
+							<li class="w-33">
+								<a href="javascript:;" class="flx flx-jsb">
+									<span class="ico ico-cha"></span>
+									<span class="txt">
+										<h4>Chat with us</h4>
+										<p>We are very active in the SKF Gitter chat. We look forward to welcome you!</p>
+									</span>
+								</a>
+							</li>
+							<li class="w-50">
+								<a href="https://github.com/blabla1337/skf-flask/issues" class="flx flx-jsb">
+									<span class="ico ico-sup"></span>
+									<span class="txt">
+										<h4>Support</h4>
+										<p>Need help with anything not covered in the docs? Feel free to post your issue.</p>
+									</span>
+								</a>
+							</li>
+							<li class="w-50">
+								<a href="javascript:;" class="flx flx-jsb">
+									<span class="ico ico-pay"></span>
+									<span class="txt">
+										<h4>Donate / Sponsor a feature</h4>
+										<p>All financial contributions directly support future development and features of SKF.</p>
+									</span>
+								</a>
+							</li>
+						</ul>
+						
+					</div>
+					<ul class="powered flx flx-jc">
+						<li><span class="ico ico-owasp"></span> OWASP</li>
+						<li><span class="ico ico-ossf"></span> OpenSSF</li>
+					</ul>
+					<p class="text-center">Security knowledge framework is licensed under the <a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank">GNU 3.0 licence</a></p>
+				</div>
+			</div>
+		</section>	
+		
+		<footer id="footer" class="bgd">
+			<div class="wrap wide">
+				<div class="inner pt3 pb3 flx flx-jsb">
+					<div class="left">&copy; Security Knowledge Framework</div>
+					<div class="right" style="opacity: 0.5;">Design powered by Erik de Kuijper</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<script src="js/scroll/scrollto/jquery.scrollTo.min.js"></script>
+	<script src="js/scroll/aos/aos.js"></script>
+	<script src="js/scroll/onepage/jquery.nav.js"></script>
+	<script src="js/actions-skf.js"></script>
+	
+</body>
+	
+</html>
