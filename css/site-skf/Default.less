@@ -458,6 +458,7 @@ body.modal { overflow: hidden; }
 	&:before { .centerIcon(); background-image: linear-gradient(90deg,darken(@primary,5%),darken(@secondary,5%)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 }
 .docs .txt { width: calc(~"100% - 3em"); }
+.bgg .docs li a { background: #fff; }
 
 // ===== Chat =====
 
@@ -466,6 +467,11 @@ body.modal { overflow: hidden; }
 	&:before { content: "\e828"; .centerIcon(); color: #fff; z-index: 1; }
 	&:hover:after { left: -100%; }
 }
+
+// ===== Companies =====
+
+.companies img { height: auto; }
+.companies li { padding: 1em; }
 
 // ===== Footer =====
 
