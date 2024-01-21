@@ -27,17 +27,16 @@
 	
 	<script src="js/vendor/jquery-3.4-1.min.js"></script>
 	<script src="js/vendor/jquery-ui.1.12.0.min.js"></script>
-
+	
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-7GQXYS92PF"></script>
 	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	  
-		ga('create', 'UA-54883827-1', 'auto');
-		ga('send', 'pageview');
-	  
-	  </script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	
+	gtag('config', 'G-7GQXYS92PF');
+	</script>
 
 <script>
 	((window.gitter = {}).chat = {}).options = {
